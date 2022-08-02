@@ -15,12 +15,20 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.btn {
+  border-radius: 0;
+}
+
+.btn-dark,
+.bg-dark {
+  background-color: #000000 !important;
+}
+
+.carousel .carousel-item {
+  height: 93vh;
+}
+
+.carousel .carousel-item img {
+  height: 100%;
+  filter: brightness(45%);
 }
