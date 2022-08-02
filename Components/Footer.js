@@ -17,19 +17,18 @@ const Footer = ({ siteName }) => {
                     <div className="footer-item pt-5">
                         <h3>Useful Links</h3>
                         <ul className="d-flex flex-column list-unstyled">
-                            <li><Link href="/" className="link">Home</Link></li>
-                            <li><a href="/#about" className="link">About</a></li>
-                            <li><Link href="/" className="link">Schedule</Link></li>
-                            <li><a href="/#venue" className="link">Venue</a></li>
+                            <li><Link href="/"><a className="link">Home</a></Link></li>
+                            <li><Link href="/#about"><a className="link">About</a></Link></li>
+                            <li><Link href="/"><a className="link">Schedule</a></Link></li>
+                            <li><Link href="/#venue"><a className="link">Venue</a></Link></li>
                         </ul>
                     </div>
                     <div className="footer-item pt-5">
                         <h3>Useful Links</h3>
                         <ul className="d-flex flex-column list-unstyled">
-                            <li><Link href="/#gallery" className="link">Gallery</Link></li>
-                            <li><a href="/sponsors" className="link">Sponsors</a></li>
-                            <li><Link href="/contact" className="link">Contact</Link></li>
-                            <li><a href="/register" className="link">Register</a></li>
+                            <li><Link href="/#gallery"><a className="link">Gallery</a></Link></li>
+                            <li><Link href="/sponsors"><a className="link">Sponsors</a></Link></li>
+                            <li><Link href="/"><a className="link">Register</a></Link></li>
                         </ul>
                     </div>
                 </div>

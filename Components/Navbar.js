@@ -41,7 +41,7 @@ const Navbar = ({ siteName }) => {
                                 <Link href="/sponsors"><a className="nav-link me-2">Sponsors</a></Link>
                             </li>
                             <li className="nav-item">
-                                <Link href="/register"><a className="btn btn-dark">Register</a></Link>
+                                <Link href="/"><a className="btn btn-dark">Register</a></Link>
                             </li>
                         </ul>
                     </div>
