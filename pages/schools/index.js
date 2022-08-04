@@ -10,7 +10,7 @@ const Index = ({ siteName }) => {
             <Head>
                 <title>Schools | {siteName}</title>
             </Head>
-            <div className="container my-5">
+            <div className="container my-5 school">
                 <h1 className="text-center my-5">Schools</h1>
                 <div className="container d-flex flex-wrap justify-content-start">
 

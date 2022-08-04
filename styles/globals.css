@@ -21,7 +21,16 @@ a {
 
 .btn-dark,
 .bg-dark {
-  background-color: #000000 !important;
+  background-color: #198754 !important;
+}
+
+.btn-dark,
+.btn-dark:hover {
+  border-color: #198754;
+}
+
+.card {
+  background-color: rgba(25, 135, 84, 0.75);
 }
 
 .carousel .carousel-item {
@@ -31,4 +40,16 @@ a {
 .carousel .carousel-item img {
   height: 100%;
   filter: brightness(45%);
+}
+
+@media screen and (max-width: 768px) {
+
+  .school .container,
+  .sponsors .container {
+    justify-content: center !important;
+  }
+
+  .footer .items {
+    flex-direction: column;
+  }
 }

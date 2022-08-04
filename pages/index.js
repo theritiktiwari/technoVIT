@@ -2,9 +2,9 @@ import About from "../Components/About";
 import Coordinators from "../Components/Coordinators";
 import Gallery from "../Components/Gallery";
 
-const image1 = "https://cdn.pixabay.com/index/2022/07/11/13-36-34-624_1440x550.jpg";
-const image2 = "https://images.unsplash.com/photo-1443986870756-31166604c63c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80";
-const image3 = "https://images.unsplash.com/photo-1472405044831-bb7c502fd2d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGFib3ZlfGVufDB8fDB8fA%3D%3D&w=1000&q=80";
+const image1 = "https://www.ingredientsnetwork.com/47/pdcnewsitem/07/99/14/IFIC-study-environmental-sustainability-is-important-to-consumers.jpeg";
+const image2 = "https://standrewshospital.com.au/sfimages/default-source/default-album/shutterstock_760733977.jpg?sfvrsn=7942a265_4";
+const image3 = "https://www.concentrix.com/wp-content/uploads/2021/09/5-key-factors-featured.jpg";
 
 export default function Home({ siteName }) {
   return (

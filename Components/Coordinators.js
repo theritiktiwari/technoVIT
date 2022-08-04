@@ -7,7 +7,7 @@ const Coordinators = () => {
         <>
             <div className="container my-5">
                 <h2 className="text-center mb-3">Coordinators</h2>
-                <div className="container d-flex flex-wrap justify-content-between">
+                <div className="container d-flex flex-wrap justify-content-around">
                     <div className="card p-3 mb-3" style={{ width: "18rem" }}>
                         <img src={userImage} className="card-img-top" alt="..." />
                         <div className="card-body">
