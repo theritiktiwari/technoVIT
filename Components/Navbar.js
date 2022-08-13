@@ -4,7 +4,7 @@ import Link from 'next/link';
 const Navbar = ({ siteName }) => {
     return (
         <>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+            <nav className="navbar navbar-expand-lg navbar-dark sticky-top">
                 <div className="container-fluid">
                     <Link href="/"><a className="navbar-brand">{siteName}</a></Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,7 +41,7 @@ const Navbar = ({ siteName }) => {
                                 <Link href="/sponsors"><a className="nav-link me-2">Sponsors</a></Link>
                             </li>
                             <li className="nav-item">
-                                <Link href="/"><a className="btn btn-dark">Register</a></Link>
+                                <Link href="/"><a className="btn btn-green">Register</a></Link>
                             </li>
                         </ul>
                     </div>
