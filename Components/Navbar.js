@@ -1,12 +1,14 @@
 import React from 'react';
 import Link from 'next/link';
 
+const logo = "https://i.ibb.co/CP9TB7M/Techno-VIT.png";
+
 const Navbar = ({ siteName }) => {
     return (
         <>
             <nav className="navbar navbar-expand-lg navbar-dark sticky-top">
                 <div className="container-fluid">
-                    <Link href="/"><a className="navbar-brand">{siteName}</a></Link>
+                    <Link href="/"><a className="navbar-brand">{logo ? <img src={logo} height="75px" alt={"technoVIT"} /> : siteName}</a></Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
