@@ -9,7 +9,7 @@ import Footer from '../Components/Footer';
 import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
-  const siteName = "TechnoVIT";
+  const siteName = "technoVIT";
 
   const router = useRouter();
   const [loader, setLoader] = useState();
