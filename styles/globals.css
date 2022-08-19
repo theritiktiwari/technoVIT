@@ -107,7 +107,6 @@ a {
 }
 
 .countdown-item {
-  color: #111;
   font-size: 40px;
   display: flex;
   align-items: center;
@@ -122,17 +121,22 @@ a {
 }
 
 .countdown-item span {
-  color: #333;
+  color: #777777;
   font-size: 12px;
   font-weight: 600;
   text-transform: uppercase;
 }
+
 .countdown-svg {
   position: absolute;
   top: 0;
   left: 0;
   width: 100px;
   height: 100px;
+}
+
+.countdown-svg path {
+  stroke: var(--secondary-color) !important;
 }
 
 @media screen and (max-width: 768px) {
