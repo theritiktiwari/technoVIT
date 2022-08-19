@@ -55,34 +55,33 @@ class Countdown extends React.Component {
     }
 
     return (
-      <div>
-        <style></style>
-        <h1>Countdown</h1>
+      <div className="container my-5">
+        <h1 className="text-center mb-4">Countdown</h1>
         <div className="countdown-wrapper">
           {days && (
             <div className="countdown-item">
-              <SVGCircle radius={daysRadius} />
+              <SVGCircle radius={daysRadius} className="circle" />
               {days}
               <span>days</span>
             </div>
           )}
           {hours && (
             <div className="countdown-item">
-              <SVGCircle radius={hoursRadius} />
+              <SVGCircle radius={hoursRadius} className="circle" />
               {hours}
               <span>hours</span>
             </div>
           )}
           {minutes && (
             <div className="countdown-item">
-              <SVGCircle radius={minutesRadius} />
+              <SVGCircle radius={minutesRadius} className="circle" />
               {minutes}
               <span>minutes</span>
             </div>
           )}
           {seconds && (
             <div className="countdown-item">
-              <SVGCircle radius={secondsRadius} />
+              <SVGCircle radius={secondsRadius} className="circle" />
               {seconds}
               <span>seconds</span>
             </div>
@@ -232,6 +231,8 @@ export default function Home({ siteName }) {
       />
       <About siteName={siteName} />
 
+      <Coordinators />
+
       <div className="container-fluid p-5 bg-green">
         <h2 className="text-center">Schedule</h2>
         <div className="btn-group d-flex justify-content-center align-items-center px-4">
@@ -247,7 +248,7 @@ export default function Home({ siteName }) {
         </div>
       </div>
 
-      <Coordinators />
+      <Gallery />
 
       <div className="container-fluid p-5 text-light bg-green" id="venue">
         <h2 className="text-center mb-3">Venue</h2>
@@ -261,8 +262,6 @@ export default function Home({ siteName }) {
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
-
-      <Gallery />
     </>
   );
 }
