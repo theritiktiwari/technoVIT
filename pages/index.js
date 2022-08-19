@@ -229,6 +229,8 @@ export default function Home({ siteName }) {
         timeTillDate="09 25 2022, 9:00 am"
         timeFormat="MM DD YYYY, h:mm a"
       />
+      <br></br>
+      <br></br>
       <About siteName={siteName} />
 
       <div className="container-fluid p-5 bg-green">
