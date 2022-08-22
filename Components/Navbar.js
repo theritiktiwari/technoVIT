@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-const logo = "https://i.ibb.co/CP9TB7M/Techno-VIT.png";
+const logo = "https://i.imgur.com/kWQb9MI.png";
 
 const Navbar = ({ siteName }) => {
     return (
