@@ -1,8 +1,9 @@
 import React from "react";
 import Head from "next/head";
-
+const path = "/images/schools";
 const image =
   "https://www.uflexltd.com/assets/images/environmental-Sustainability.jpg";
+import NaturalImage from "../../Components/NaturalImage";
 
 const Qubit = ({ siteName }) => {
   return (
@@ -18,42 +19,19 @@ const Qubit = ({ siteName }) => {
               className="card p-3 m-2"
               style={{ width: "18rem", height: "25rem" }}
             >
-              <img src={image} className="card-img-top" alt="..." />
+              <NaturalImage
+                src={
+                  path +
+                  "/QUBIT/Event Posters/Live Hacking Hands on Workshop MIC TECHNOVIT.png"
+                }
+                className="card-img-top"
+                alt="..."
+                width={250}
+              />
               <div className="card-body">
-                <h5 className="card-title text-center">Event 1</h5>
-              </div>
-            </div>
-          </a>
-          <a href="https://vitchennaievents.com/conf1/">
-            <div
-              className="card p-3 m-2"
-              style={{ width: "18rem", height: "25rem" }}
-            >
-              <img src={image} className="card-img-top" alt="..." />
-              <div className="card-body">
-                <h5 className="card-title text-center">Event 2</h5>
-              </div>
-            </div>
-          </a>
-          <a href="https://vitchennaievents.com/conf1/">
-            <div
-              className="card p-3 m-2"
-              style={{ width: "18rem", height: "25rem" }}
-            >
-              <img src={image} className="card-img-top" alt="..." />
-              <div className="card-body">
-                <h5 className="card-title text-center">Event 3</h5>
-              </div>
-            </div>
-          </a>
-          <a href="https://vitchennaievents.com/conf1/">
-            <div
-              className="card p-3 m-2"
-              style={{ width: "18rem", height: "25rem" }}
-            >
-              <img src={image} className="card-img-top" alt="..." />
-              <div className="card-body">
-                <h5 className="card-title text-center">Event 4</h5>
+                <h5 className="card-title text-center">
+                  Live Hacking Hands on Workshop
+                </h5>
               </div>
             </div>
           </a>
