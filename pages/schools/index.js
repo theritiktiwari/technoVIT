@@ -73,7 +73,7 @@ const Index = ({ siteName }) => {
                   src={path + "/QUBIT/qubitfinallogo.png"}
                   className="card-img-top"
                   alt="..."
-                  width={300}
+                  width={320}
                 />
                 <div className="card-body">
                   <h5 className="card-title text-center">Qubit</h5>
@@ -85,7 +85,12 @@ const Index = ({ siteName }) => {
           <Link href="/schools/vitness">
             <a>
               <div className="card px-3 pt-3 m-2" style={{ width: "18rem" }}>
-                <img src={userImage} className="card-img-top" alt="..." />
+                <NaturalImage
+                  width={250}
+                  src={userImage}
+                  className="card-img-top"
+                  alt="..."
+                />
                 <div className="card-body">
                   <h5 className="card-title text-center">Vitness</h5>
                 </div>
@@ -96,7 +101,12 @@ const Index = ({ siteName }) => {
           <Link href="/schools/taikuun">
             <a>
               <div className="card px-3 pt-3 m-2" style={{ width: "18rem" }}>
-                <img src={userImage} className="card-img-top" alt="..." />
+                <NaturalImage
+                  width={250}
+                  src={userImage}
+                  className="card-img-top"
+                  alt="..."
+                />
                 <div className="card-body">
                   <h5 className="card-title text-center">Tai:kuun</h5>
                 </div>
