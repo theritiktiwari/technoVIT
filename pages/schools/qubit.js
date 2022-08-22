@@ -1,8 +1,6 @@
 import React from "react";
 import Head from "next/head";
 const path = "/images/schools";
-const image =
-  "https://www.uflexltd.com/assets/images/environmental-Sustainability.jpg";
 import NaturalImage from "../../Components/NaturalImage";
 
 const Qubit = ({ siteName }) => {
