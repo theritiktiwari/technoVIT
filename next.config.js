@@ -15,6 +15,8 @@ const nextConfig = {
       "www.ingredientsnetwork.com",
       "standrewshospital.com.au",
       "www.concentrix.com",
+      "i.imgur.com",
+      "i.ibb.co",
     ],
   },
   swcMinify: true,
