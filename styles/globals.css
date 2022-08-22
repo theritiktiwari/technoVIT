@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #F2F2F2;
-  --secondary-color: #6EBE49;
+  --primary-color: #f2f2f2;
+  --secondary-color: #6ebe49;
   --background-primary-color: #000000;
   --background-secondary-color: #111111;
 }
@@ -55,7 +55,7 @@ a {
 .card {
   background-color: var(--background-primary-color);
   border-color: var(--secondary-color);
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .card:hover {
@@ -97,7 +97,6 @@ a {
 .footer .link:hover {
   color: var(--secondary-color);
 }
-
 
 .countdown-wrapper {
   display: flex;
@@ -149,4 +148,7 @@ a {
   .footer .items {
     flex-direction: column;
   }
+}
+.h-100 {
+  height: 100%;
 }
