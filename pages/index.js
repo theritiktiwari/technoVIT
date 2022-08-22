@@ -3,6 +3,7 @@ import moment from "moment";
 import About from "../Components/About";
 import Coordinators from "../Components/Coordinators";
 import Gallery from "../Components/Gallery";
+import Image from "next/image";
 
 const image1 =
   "https://www.ingredientsnetwork.com/47/pdcnewsitem/07/99/14/IFIC-study-environmental-sustainability-is-important-to-consumers.jpeg";
@@ -20,8 +21,7 @@ class Countdown extends React.Component {
 
   componentDidMount() {
     this.interval = setInterval(() => {
-      const { timeTillDate, timeFormat } = this.props;
-      const then = new Date('2022-')
+      const then = new Date("2022-");
       const now = Date.now();
       console.log(now);
       console.log(then);
@@ -56,7 +56,8 @@ class Countdown extends React.Component {
 
     return (
       <div>
-        <br></br><br></br>
+        <br></br>
+        <br></br>
         <div className="countdown-wrapper">
           {days && (
             <div className="countdown-item">
@@ -173,7 +174,12 @@ export default function Home({ siteName }) {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={image1} className="d-block w-100" alt="..." />
+            <Image
+              layout="fill"
+              src={image1}
+              className="d-block w-100"
+              alt="..."
+            />
             <div className="carousel-caption d-none d-md-block">
               <h5>September 23, 2022</h5>
               <p>
@@ -182,7 +188,12 @@ export default function Home({ siteName }) {
             </div>
           </div>
           <div className="carousel-item">
-            <img src={image2} className="d-block w-100" alt="..." />
+            <Image
+              layout="fill"
+              src={image2}
+              className="d-block w-100"
+              alt="..."
+            />
             <div className="carousel-caption d-none d-md-block">
               <h5>September 24, 2022</h5>
               <p>
@@ -191,7 +202,12 @@ export default function Home({ siteName }) {
             </div>
           </div>
           <div className="carousel-item">
-            <img src={image3} className="d-block w-100" alt="..." />
+            <Image
+              layout="fill"
+              src={image3}
+              className="d-block w-100"
+              alt="..."
+            />
             <div className="carousel-caption d-none d-md-block">
               <h5>September 25, 2022</h5>
               <p>
@@ -259,7 +275,7 @@ export default function Home({ siteName }) {
           style={{ border: "0" }}
           allowFullScreen=""
           loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
+          referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
 

@@ -10,11 +10,18 @@ const STUDIO_REWRITE = {
 
 const nextConfig = {
   reactStrictMode: true,
+  images: {
+    domains: [
+      "www.ingredientsnetwork.com",
+      "standrewshospital.com.au",
+      "www.concentrix.com",
+    ],
+  },
   swcMinify: true,
   rewrites: () => [STUDIO_REWRITE],
   eslint: {
     ignoreDuringBuilds: true,
   },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
