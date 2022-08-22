@@ -60,7 +60,7 @@ const Coordinators = () => {
             <img width="254" height="254" src={studImage3} className="card-img-top" alt="..." />
             <div className="card-body">
               <h5 className="card-title text-center">Maktoum Ali</h5>
-              <p className="card-text text-center">Contact: +91 96000 05340</p>
+              <p className="card-text text-center">Contact: +91 73585 11590</p>
               <p className="card-title text-center"><a href="mailto:maktoumali2020@vitstudent.ac.in">Email</a> </p>
             </div>
           </div>
