@@ -82,18 +82,18 @@ const Navbar = ({ siteName }) => {
                   <a className="nav-link">Schools</a>
                 </Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link href="/#gallery">
                   <a className="nav-link">Gallery</a>
                 </Link>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <Link href="/sponsors">
                   <a className="nav-link me-2">Sponsors</a>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="/">
+                <Link href="https://vitchennaievents.com/conf1/">
                   <a className="btn btn-green">Register</a>
                 </Link>
               </li>

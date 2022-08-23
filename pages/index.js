@@ -247,23 +247,8 @@ export default function Home({ siteName }) {
       />
       <br></br>
       <br></br>
-<a className="btn btn-primary" style={{backgroundColor: "#3b5998"}} href="#!" role="button"
-  ><i class="fab fa-facebook-f"></i
-></a>
-<a className="btn btn-primary" style={{backgroundColor: "#55acee"}} href="#!" role="button"
-  ><i class="fab fa-twitter"></i
-></a>
-<a className="btn btn-primary" style={{backgroundColor: "#dd4b39"}} href="#!" role="button"
-  ><i class="fab fa-google"></i
-></a>
-<a className="btn btn-primary" style={{backgroundColor: "#ac2bac"}} href="#!" role="button"
-  ><i class="fab fa-instagram"></i
-></a>
-<a className="btn btn-primary" style={{backgroundColor: "#0082ca"}} href="#!" role="button"
-  ><i class="fab fa-linkedin-in"></i
-></a>
-<br></br>
-<br></br>
+
+
 
       <About siteName={siteName} />
 
@@ -297,7 +282,7 @@ export default function Home({ siteName }) {
         ></iframe>
       </div>
 
-      <Gallery />
+      {/* <Gallery /> */}
     </>
   );
 }

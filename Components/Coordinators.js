@@ -8,11 +8,11 @@ const userImage2 =
   "https://chennai.vit.ac.in/wp-content/uploads/2020/08/50299_SCOPE-S.Bharathiraja-Bharathiraja-S-255x319.jpg";
 
 const studImage1 = "https://i.imgur.com/6sBZfHY.jpg";
-const studImage2 = "https://i.imgur.com/ahZxAMf.jpg";
+const studImage2 = "https://i.imgur.com/UFmGQX3.jpg";
 const studImage3 = "https://i.imgur.com/eEsu8si.jpg";
-const studImage4 = "https://i.imgur.com/nOG9qba.jpg";
+const studImage4 = "https://i.imgur.com/8NTZ3n8.jpg";
 const studImage5 = "https://i.imgur.com/ZbOHn9L.png";
-const studImage6 = "https://i.imgur.com/OatP2BK.jpg";
+const studImage6 = "https://i.imgur.com/fKnxHsa.jpg";
 
 const Coordinators = () => {
   return (
