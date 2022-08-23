@@ -16,13 +16,13 @@ const Index = ({ siteName }) => {
         <div className="container d-flex flex-wrap justify-content-start h-100">
           <Link href="/schools/connectivitieee">
             <a>
-              <div className="card px-3 pt-3 m-2" style={{ width: "18rem" }}>
+              <div className="card px-3 pt-3 m-2" style={{width: "18rem" }}>
                 <NaturalImage
                   src={
                     path +
                     "/connectiVIT/CONNECTIVITIEEE_LOGO_for dark background.png"
                   }
-                  className="card-img-top"
+                  style={{marginLeft: '-2.5vw'}}
                   alt="..."
                   width={350}
                 />
@@ -38,7 +38,7 @@ const Index = ({ siteName }) => {
               <div className="card px-3 pt-3 m-2" style={{ width: "18rem" }}>
                 <NaturalImage
                   src={path + "/Desino/Desino Logo/Diseno_Orange Logo.png"}
-                  className="card-img-top"
+                  style={{marginLeft: '2vw'}}
                   alt="..."
                   height={200}
                   width={200}
@@ -71,7 +71,7 @@ const Index = ({ siteName }) => {
               <div className="card px-3 pt-3 m-2" style={{ width: "18rem" }}>
                 <NaturalImage
                   src={path + "/QUBIT/qubitfinallogo.png"}
-                  className="card-img-top"
+                  style={{marginLeft: '-2vw'}}
                   alt="..."
                   width={320}
                 />
