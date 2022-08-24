@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import NaturalImage from "../../Components/NaturalImage";
+import Img from "../../public/images/schools/bandVIT/BandVit logo.png";
 const userImage = "https://i.ibb.co/yWZR9j0/Avatar.png";
 const path = "/images/schools";
 const Index = ({ siteName }) => {
@@ -17,14 +18,11 @@ const Index = ({ siteName }) => {
         <Link href="/schools/bandvit">
             <a>
               <div className="card px-3 pt-3 m-2" style={{width: "18rem" }}>
-                <NaturalImage
-                  src={
-                    path +
-                    "/bandVIT/BandVit logo.png"
-                  }
-                  style={{marginLeft: '-2.5vw', width: '60vw'}}
+                <img
+                  src={path + "/bandVIT/BandVit logo.png"}
+                  style={{ width: '254px', height: '250px'}}
                   alt="..."
-                  width={350}
+                  
                 />
                 <div className="card-body">
                   <h5 className="card-title text-center">BandVIT</h5>
@@ -35,14 +33,14 @@ const Index = ({ siteName }) => {
           <Link href="/schools/connectivitieee">
             <a>
               <div className="card px-3 pt-3 m-2" style={{width: "18rem" }}>
-                <NaturalImage
+                <img
                   src={
                     path +
                     "/connectiVIT/CONNECTIVITIEEE_LOGO_for dark background.png"
                   }
-                  style={{marginLeft: '1.5vw'}}
+                  style={{ width: '254px', height: '250px'}}
                   alt="..."
-                  width={210}
+                  
                 />
                 <div className="card-body">
                   <h5 className="card-title text-center">Connectivitieee</h5>
@@ -54,12 +52,10 @@ const Index = ({ siteName }) => {
           <Link href="/schools/diseno">
             <a>
               <div className="card px-3 pt-3 m-2" style={{ width: "18rem" }}>
-                <NaturalImage
+                <img
                   src={path + "/Desino/Desino Logo/Diseno_Orange Logo.png"}
-                  style={{marginLeft: '2vw'}}
+                  style={{ width: '254px', height: '250px'}}
                   alt="..."
-                  height={200}
-                  width={200}
                 />
                 <div className="card-body">
                   <h5 className="card-title text-center">Diseño</h5>
@@ -71,8 +67,8 @@ const Index = ({ siteName }) => {
           <Link href="/schools/glitz">
             <a>
               <div className="card px-3 pt-3 m-2" style={{ width: "18rem" }}>
-                <NaturalImage
-                  width={250}
+                <img
+                  style={{ width: '254px', height: '250px'}}
                   src={userImage}
                   className="card-img-top"
                   alt="..."
@@ -87,11 +83,11 @@ const Index = ({ siteName }) => {
           <Link href="/schools/qubit">
             <a>
               <div className="card px-3 pt-3 m-2" style={{ width: "18rem" }}>
-                <NaturalImage
+                <img
                   src={path + "/QUBIT/qubitfinallogo.png"}
-                  style={{marginLeft: '-2vw'}}
+                  style={{ width: '254px', height: '250px'}}
                   alt="..."
-                  width={320}
+                  
                 />
                 <div className="card-body">
                   <h5 className="card-title text-center">Qubit</h5>
@@ -103,10 +99,10 @@ const Index = ({ siteName }) => {
           <Link href="/schools/vitness">
             <a>
               <div className="card px-3 pt-3 m-2" style={{ width: "18rem" }}>
-                <NaturalImage
-                  width={250}
+                <img
                   src={userImage}
                   className="card-img-top"
+                  style={{ width: '254px', height: '250px'}}
                   alt="..."
                 />
                 <div className="card-body">
@@ -119,8 +115,8 @@ const Index = ({ siteName }) => {
           <Link href="/schools/taikuun">
             <a>
               <div className="card px-3 pt-3 m-2" style={{ width: "18rem" }}>
-                <NaturalImage
-                  width={250}
+                <img
+                  style={{ width: '254px', height: '250px'}}
                   src={userImage}
                   className="card-img-top"
                   alt="..."
@@ -135,11 +131,11 @@ const Index = ({ siteName }) => {
           <Link href="/schools/vsplash">
             <a>
               <div className="card px-3 pt-3 m-2" style={{ width: "18rem" }}>
-                <NaturalImage
+                <img
                   src={path + "/VSplash/vsplash-white.png"}
                   className="card-img-top"
                   alt="..."
-                  width="250"
+                  style={{ width: '254px', height: '250px'}}
                 />
                 <div className="card-body">
                   <h5 className="card-title text-center">Vsplash</h5>
