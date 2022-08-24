@@ -33,7 +33,7 @@ const Footer = ({ siteName }) => {
                         <ul className="d-flex flex-column list-unstyled">
                             <li><Link href="https://instagram.com/Technovit22"><a className="link">Instagram</a></Link></li>
                             <li><Link href="https://snapchat.com/add/technovit22"><a className="link">Snapchat</a></Link></li>
-                            <li><Link href="https://youtube.com/c/technovit22"><a className="link">Youtube</a></Link></li>
+                            <li><Link href="https://youtube.com/channel/UChTqHUsS72cFAujVRUqRs9g"><a className="link">Youtube</a></Link></li>
                             <li><Link href="mailto:technovit22@gmail.com"><a className="link">Mail</a></Link></li>
                             <li><Link href="https://twitter.com/technovit22"><a className="link">Twitter</a></Link></li>
                         </ul>
