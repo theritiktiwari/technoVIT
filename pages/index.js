@@ -282,7 +282,7 @@ export default function Home({ siteName }) {
         ></iframe>
       </div>
 
-      {/* <Gallery /> */}
+      <Gallery />
     </>
   );
 }
