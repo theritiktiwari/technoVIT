@@ -12,7 +12,7 @@ const Qubit = ({ siteName }) => {
       <div className="container my-5">
         <h1 className="text-center my-5">Qubit Events</h1>
         <div className="container d-flex flex-wrap justify-content-around">
-          <a href="https://vitchennaievents.com/conf1/">
+          <a href="https://vitchennaievents.com/technovit/">
             <div
               className="card p-3 m-2"
               style={{ width: "18rem", height: "25rem" }}

@@ -21,7 +21,7 @@ class Countdown extends React.Component {
 
   componentDidMount() {
     this.interval = setInterval(() => {
-      const then = new Date("2022-");
+      const then = new Date("2022-09-23");
       const now = Date.now();
       console.log(now);
       console.log(then);

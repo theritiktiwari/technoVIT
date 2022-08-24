@@ -93,7 +93,7 @@ const Navbar = ({ siteName }) => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="https://vitchennaievents.com/conf1/">
+                <Link href="https://vitchennaievents.com/technovit/">
                   <a className="btn btn-green">Register</a>
                 </Link>
               </li>
