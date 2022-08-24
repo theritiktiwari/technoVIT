@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Img from "next/image";
 import { useState } from "react";
 
 const NaturalImage = (props) => {
@@ -6,13 +6,14 @@ const NaturalImage = (props) => {
   // const height = props.height;
   const width = props.width;
   return (
-    <Image
+    <Img
       alt="..."
       {...props}
       // set the dimension (affected by layout)
       width={width}
-      height={width / ratio}
-      layout="fixed" // you can use "responsive", "fill" or the default "intrinsic"
+      marginLeft={'2vw'}
+      height={width / ratio+50}
+      layout="intrinsic" // you can use "responsive", "fill" or the default "intrinsic"
       onLoadingComplete={({ naturalWidth, naturalHeight }) =>
         setRatio(naturalWidth / naturalHeight)
       }

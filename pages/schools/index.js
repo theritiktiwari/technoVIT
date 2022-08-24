@@ -14,6 +14,24 @@ const Index = ({ siteName }) => {
       <div className="container my-5 school">
         <h1 className="text-center my-5">Schools</h1>
         <div className="container d-flex flex-wrap justify-content-start h-100">
+        <Link href="/schools/bandvit">
+            <a>
+              <div className="card px-3 pt-3 m-2" style={{width: "18rem" }}>
+                <NaturalImage
+                  src={
+                    path +
+                    "/bandVIT/BandVit logo.png"
+                  }
+                  style={{marginLeft: '-2.5vw', width: '60vw'}}
+                  alt="..."
+                  width={350}
+                />
+                <div className="card-body">
+                  <h5 className="card-title text-center">BandVIT</h5>
+                </div>
+              </div>
+            </a>
+          </Link>
           <Link href="/schools/connectivitieee">
             <a>
               <div className="card px-3 pt-3 m-2" style={{width: "18rem" }}>
@@ -22,9 +40,9 @@ const Index = ({ siteName }) => {
                     path +
                     "/connectiVIT/CONNECTIVITIEEE_LOGO_for dark background.png"
                   }
-                  style={{marginLeft: '-2.5vw'}}
+                  style={{marginLeft: '1.5vw'}}
                   alt="..."
-                  width={350}
+                  width={210}
                 />
                 <div className="card-body">
                   <h5 className="card-title text-center">Connectivitieee</h5>
