@@ -14,6 +14,7 @@
     "@sanity/default-login": "^2.30.5",
     "@sanity/desk-tool": "^2.30.5",
     "@sanity/vision": "^2.30.5",
+    "countapi-js": "^1.0.2",
     "cross-env": "^7.0.3",
     "moment": "^2.29.4",
     "next": "12.2.3",

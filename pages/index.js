@@ -4,6 +4,7 @@ import About from "../Components/About";
 import Coordinators from "../Components/Coordinators";
 import Gallery from "../Components/Gallery";
 import Image from "next/image";
+import schedule from "../Components/data/schedule";
 
 const image1 =
   "https://www.ingredientsnetwork.com/47/pdcnewsitem/07/99/14/IFIC-study-environmental-sustainability-is-important-to-consumers.jpeg";
@@ -23,8 +24,6 @@ class Countdown extends React.Component {
     this.interval = setInterval(() => {
       const then = new Date("2022-09-23");
       const now = Date.now();
-      console.log(now);
-      console.log(then);
       const countdown = moment(then - now);
       const days = countdown.format("D");
       const hours = countdown.format("HH");
@@ -181,10 +180,8 @@ export default function Home({ siteName }) {
               alt="..."
             />
             <div className="carousel-caption d-none d-md-block">
-              <h5>September 23, 2022</h5>
-              <p>
-                Some representative placeholder content for the first slide.
-              </p>
+              <h5>23-25, September 2022</h5>
+              <p>A beginning of a biggest tech fest of VIT.</p>
             </div>
           </div>
           <div className="carousel-item">
@@ -242,28 +239,22 @@ export default function Home({ siteName }) {
         </button>
       </div>
       <Countdown
-        timeTillDate="09 25 2022, 9:00 am"
+        timeTillDate="09 23 2022, 12:00 am"
         timeFormat="MM DD YYYY, h:mm a"
       />
       <br></br>
       <br></br>
-
-
 
       <About siteName={siteName} />
 
       <div className="container-fluid p-5 bg-green">
         <h2 className="text-center">Schedule</h2>
         <div className="btn-group d-flex justify-content-center align-items-center px-4">
-          <a href="#" className="btn btn-dark m-2">
-            Day 1
-          </a>
-          <a href="#" className="btn btn-dark m-2">
-            Day 2
-          </a>
-          <a href="#" className="btn btn-dark m-2">
-            Day 3
-          </a>
+          {schedule && schedule.map((item, index) => {
+            return <>
+              <a key={index} href={item.link} className="btn btn-dark m-2">{item.name}</a>
+            </>
+          })}
         </div>
       </div>
 

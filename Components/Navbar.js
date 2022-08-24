@@ -82,11 +82,11 @@ const Navbar = ({ siteName }) => {
                   <a className="nav-link">Schools</a>
                 </Link>
               </li>
-              {/* <li className="nav-item">
+              <li className="nav-item">
                 <Link href="/#gallery">
                   <a className="nav-link">Gallery</a>
                 </Link>
-              </li> */}
+              </li>
               <li className="nav-item">
                 <Link href="https://drive.google.com/file/d/160K-VixPS0x0jEIJVnrK8O2GGNV0fiGk/preview">
                   <a className="nav-link me-2">Sponsors</a>
