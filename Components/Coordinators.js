@@ -35,7 +35,7 @@ const Coordinators = () => {
               <div className="card-body">
                 <h5 className="card-title text-center">{item.name}</h5>
                 {item.phone && <p className="card-text text-center">Mobile: {item.phone}</p>}
-                {item.email && <p className="card-text text-center"><a href={`mailto:${item.email}`}>Email Address</a></p>}
+                {item.email && <button style={{padding: '10px', textAlign: 'center', marginLeft: '5vw', background: '#6ebe49', border: 'none', borderRadius: '20px'}}><a href={`mailto:${item.email}`}>&nbsp;Email Now&nbsp;</a></button>}
               </div>
             </div>
           })}
