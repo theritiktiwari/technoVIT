@@ -15,7 +15,7 @@ const data = [
         id: "3",
         name: "Diseño",
         link: "diseno",
-        image: "https://i.ibb.co/PQgmJCB/Diseno.png",
+        image: "https://i.ibb.co/njKzqqJ/Diseno_White%20Logo.png",
     },
     {
         id: "4",
