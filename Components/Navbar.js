@@ -88,7 +88,7 @@ const Navbar = ({ siteName }) => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="https://drive.google.com/file/d/160K-VixPS0x0jEIJVnrK8O2GGNV0fiGk/preview">
+                <Link href="https://drive.google.com/file/d/1PBPpzBG5ICDf-8enbA9yn0I-ekCvbX5P/preview">
                   <a className="nav-link me-2">Sponsors</a>
                 </Link>
               </li>
