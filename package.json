@@ -5,19 +5,25 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
+    "@rumess/react-flip-countdown": "^1.2.6",
     "countapi-js": "^1.0.2",
+    "flipdown": "^0.3.2",
     "moment": "^2.29.4",
-    "next": "12.2.3",
+    "moment-timezone": "^0.5.37",
+    "next": "12.2.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.4.0",
-    "react-loader-spinner": "^5.1.7-beta.1"
+    "react-toastify": "^9.0.8",
+    "react-tsparticles": "^2.2.4",
+    "tsparticles": "^2.2.4"
   },
   "devDependencies": {
-    "eslint": "8.21.0",
-    "eslint-config-next": "12.2.3"
+    "eslint": "8.23.0",
+    "eslint-config-next": "12.2.5"
   }
 }

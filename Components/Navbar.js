@@ -7,15 +7,11 @@ const logo = "https://i.imgur.com/kWQb9MI.png";
 const Navbar = ({ siteName }) => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-dark sticky-top">
+      <nav className="navbar navbar-expand-lg sticky-top">
         <div className="container-fluid">
           <Link href="/">
             <a className="navbar-brand">
-              {logo ? (
-                <Image width={120} src={logo} height="75px" alt={"technoVIT"} />
-              ) : (
-                siteName
-              )}
+              {logo ? <Image src={logo} height={50} width={150} alt={"technoVIT"} /> : siteName}
             </a>
           </Link>
           <button
@@ -43,15 +39,14 @@ const Navbar = ({ siteName }) => {
                   <a className="nav-link">About</a>
                 </Link>
               </li>
-              <li className="nav-item dropdown">
+              {/* <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
                   href="#"
                   id="navbarDropdown"
                   role="button"
                   data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
+                  aria-expanded="false">
                   Schedule
                 </a>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -71,7 +66,7 @@ const Navbar = ({ siteName }) => {
                     </Link>
                   </li>
                 </ul>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <Link href="/#venue">
                   <a className="nav-link">Venue</a>
@@ -88,14 +83,10 @@ const Navbar = ({ siteName }) => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="https://drive.google.com/file/d/1PBPpzBG5ICDf-8enbA9yn0I-ekCvbX5P/preview">
-                  <a className="nav-link me-2">Sponsors</a>
-                </Link>
+                <a href="https://drive.google.com/file/d/1PBPpzBG5ICDf-8enbA9yn0I-ekCvbX5P/preview" target={"_blank"} className="nav-link me-2">Sponsors</a>
               </li>
               <li className="nav-item">
-                <Link href="https://vitchennaievents.com/technovit/">
-                  <a className="btn btn-green">Register</a>
-                </Link>
+                <a href="https://vitchennaievents.com/technovit/" target={"_blank"} className="btn btn-invert">Register</a>
               </li>
             </ul>
           </div>

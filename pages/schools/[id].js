@@ -1,5 +1,6 @@
 import React from 'react'
 import Head from "next/head";
+import Image from 'next/image';
 import { useRouter } from 'next/router'
 
 import bandvit from "../../Components/data/schoolData/bandvit";
@@ -12,6 +13,7 @@ import taikuun from "../../Components/data/schoolData/taikuun";
 import vitlilacs from "../../Components/data/schoolData/vitlilacs";
 import vitness from "../../Components/data/schoolData/vitness";
 import vsplash from "../../Components/data/schoolData/vsplash";
+import NaturalImage from '../../Components/NaturalImage';
 
 const image = "https://www.uflexltd.com/assets/images/environmental-Sustainability.jpg";
 
@@ -43,7 +45,8 @@ const ID = ({ siteName }) => {
                         return item.name ?
                             <a href="https://vitchennaievents.com/technovit/" id={index}>
                                 <div className="card p-3 m-2" style={{ width: "18rem", height: "25rem" }} >
-                                    <img src={item.image ? item.image : image} className="card-img-top" alt={item.name} height={"84%"} />
+                                    <NaturalImage src={item.image ? item.image : image} width={1000} height={1200} />
+                                    {/* <Image src={item.image ? item.image : image} className="card-img-top" alt={item.name} height={2000} width={500} /> */}
                                     <div className="card-body">
                                         <h5 className="card-title text-center">{item.name}</h5>
                                     </div>

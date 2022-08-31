@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Link from "next/link";
+import NaturalImage from "../../Components/NaturalImage";
 import schoolData from "../../Components/data/schools";
 const userImage = "https://i.ibb.co/yWZR9j0/Avatar.png";
 
@@ -19,7 +20,8 @@ const Index = ({ siteName }) => {
               <a>
                 <div className="card p-3 m-2" style={{ width: "18rem", height: "22rem" }}>
                   <div style={{ width: "250px", height: "250px", display: "flex", alignItems: "center" }}>
-                    <img src={school.image ? `${school.image}` : userImage} alt={school.name} style={{ width: "100%" }} />
+                    <NaturalImage src={school.image ? `${school.image}` : userImage} alt={school.name} width={10000} height={10000} />
+                    {/* <img src={school.image ? `${school.image}` : userImage} alt={school.name} style={{ width: "100%" }} /> */}
                   </div>
                   <div className="card-body">
                     <h5 className="card-title text-center">{school.name}</h5>

@@ -6,7 +6,7 @@ const image = "https://www.peakoil.net/wp-content/uploads/2017/05/environmental-
 const Gallery = () => {
     return (
         <>
-            <div className="container my-5" id='gallery'>
+            <div className="container-fluid py-5 bg-invert" id='gallery'>
                 <h2 className="text-center mb-3">Gallery</h2>
                 <div className="container d-flex flex-wrap justify-content-around">
                     {data && data.map((item, index) => {

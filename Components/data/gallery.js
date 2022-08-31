@@ -12,12 +12,12 @@ const data = [
     {
         id: "3",
         name: "Image 3",
-        link: ""
+        link: "https://i.ibb.co/zhw4N57/1.jpg"
     },
     {
         id: "4",
         name: "Image 4",
-        link: ""
+        link: "https://i.ibb.co/Q8y28XT/2.jpg"
     },
 ]
 

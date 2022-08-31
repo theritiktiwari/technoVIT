@@ -4,6 +4,7 @@ const nextConfig = {
   reactStrictMode: true,
   images: {
     domains: [
+      "chennai.vit.ac.in",
       "www.ingredientsnetwork.com",
       "standrewshospital.com.au",
       "www.concentrix.com",
@@ -17,4 +18,4 @@ const nextConfig = {
   },
 };
 
-module.exports = nextConfig;
+module.exports = nextConfig

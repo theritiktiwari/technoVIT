@@ -12,7 +12,7 @@ const NaturalImage = (props) => {
       // set the dimension (affected by layout)
       width={width}
       marginLeft={'2vw'}
-      height={width / ratio+50}
+      height={width / ratio + 50}
       layout="intrinsic" // you can use "responsive", "fill" or the default "intrinsic"
       onLoadingComplete={({ naturalWidth, naturalHeight }) =>
         setRatio(naturalWidth / naturalHeight)
