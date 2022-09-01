@@ -149,6 +149,9 @@ export default function Home({ siteName }) {
         className="carousel slide"
         data-bs-ride="carousel"
       >
+        <link rel="preload" href="https://i.imgur.com/SN1FQBH.gif"/>
+        <link rel="preload" href="https://i.imgur.com/psfdz4P.gif"/>
+        <link rel="preload" href="https://i.imgur.com/s5iLj8p.gif"/>
         <div className="carousel-indicators">
           <button
             type="button"
