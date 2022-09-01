@@ -7,11 +7,11 @@ import Image from "next/image";
 import schedule from "../Components/data/schedule";
 
 const image1 =
-  "https://www.ingredientsnetwork.com/47/pdcnewsitem/07/99/14/IFIC-study-environmental-sustainability-is-important-to-consumers.jpeg";
+  "https://i.imgur.com/SN1FQBH.gif";
 const image2 =
-  "https://standrewshospital.com.au/sfimages/default-source/default-album/shutterstock_760733977.jpg?sfvrsn=7942a265_4";
+  "https://i.imgur.com/psfdz4P.gif";
 const image3 =
-  "https://www.concentrix.com/wp-content/uploads/2021/09/5-key-factors-featured.jpg";
+  "https://i.imgur.com/s5iLj8p.gif";
 class Countdown extends React.Component {
   state = {
     days: undefined,
@@ -173,9 +173,10 @@ export default function Home({ siteName }) {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <Image
+            <img
               layout="fill"
               src={image1}
+              style={{marginTop: "-10vh"}}
               className="d-block w-100"
               alt="..."
             />
@@ -185,9 +186,10 @@ export default function Home({ siteName }) {
             </div>
           </div>
           <div className="carousel-item">
-            <Image
+            <img
               layout="fill"
               src={image2}
+              style={{marginTop: "-10vh"}}
               className="d-block w-100"
               alt="..."
             />
@@ -199,9 +201,10 @@ export default function Home({ siteName }) {
             </div>
           </div>
           <div className="carousel-item">
-            <Image
+            <img
               layout="fill"
               src={image3}
+              style={{marginTop: "-10vh"}}
               className="d-block w-100"
               alt="..."
             />
