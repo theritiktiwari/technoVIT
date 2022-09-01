@@ -38,21 +38,21 @@ a {
     position: relative;
     width: 100vw;
     height: 100vh;
-    /* overflow: hidden !important; */
+    overflow: hidden !important;
     background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('https://i.ibb.co/Q8y28XT/2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.particles-container .particles {
+/* .particles-container .particles {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     z-index: 1000;
-}
+} */
 
 .navbar {
     background-color: var(--other-color);

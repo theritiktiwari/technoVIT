@@ -11,7 +11,7 @@ const Coordinators = () => {
         <h2 className="text-center my-3">Conveners</h2>
         <div className="container d-flex flex-wrap justify-content-around">
           {convener && convener.map((item, index) => {
-            return <div key={index} className="card p-3 d-flex justify-content-center align-items-center" style={{ width: "20rem" }} data-aos="flip-right">
+            return <div key={index} className="card p-3 d-flex justify-content-center align-items-center" style={{ width: "20rem" }}>
               <div className="user-img">
                 <img src={item.image || userImage} className="card-img-top" alt={item.name} />
               </div>
