@@ -5,7 +5,6 @@ import { useRouter } from 'next/router';
 import countapi from 'countapi-js';
 import Navbar from '../Components/Navbar';
 import Footer from '../Components/Footer';
-
 import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
