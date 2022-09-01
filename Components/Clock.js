@@ -14,7 +14,7 @@ const Clock = ({ date }) => {
     }, []);
 
     return (
-        <div className="my-4 pb-3">
+        <div className="my-4 p-5 bg-invert">
             <FlipCountdown
                 size={isMobile ? 'small' : 'medium'}
                 hideYear

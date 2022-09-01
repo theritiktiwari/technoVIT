@@ -30,12 +30,12 @@ const Schedule = () => {
                 draggable
                 pauseOnHover
             />
-            <div className="container-fluid p-5 bg-green">
+            <div className="container-fluid p-5 bg-invert">
                 <h2 className="text-center">Schedule</h2>
                 <div className="btn-group d-flex justify-content-center align-items-center px-4">
                     {schedule && schedule.map((item, index) => {
                         return <>
-                            <a key={index} href={item.link} onClick={!item.link && ((e) => popup(e))} className="btn btn-dark m-2">{item.name}</a>
+                            <a key={index} target="_blank" href={item.link} onClick={!item.link ? ((e) => popup(e)) : ""} className="btn btn-dark m-2">{item.name}</a>
                         </>
                     })}
                 </div>

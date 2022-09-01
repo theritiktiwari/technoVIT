@@ -4,10 +4,9 @@ import Script from 'next/script';
 import countapi from 'countapi-js';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import '../styles/globals.css'
 import Navbar from '../Components/Navbar';
 import Footer from '../Components/Footer';
-// import 'animate.css';
-import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
   const siteName = "technoVIT";

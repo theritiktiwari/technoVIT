@@ -10,10 +10,10 @@ export default function Home({ siteName, date }) {
   return (
     <>
       <Landing />
-      <Clock date={date} />
       <About siteName={siteName} />
-      <Schedule />
+      <Clock date={date} />
       <Coordinators />
+      <Schedule />
       <Venue />
       <Gallery />
     </>)

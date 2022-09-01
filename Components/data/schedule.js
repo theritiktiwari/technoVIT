@@ -2,7 +2,7 @@ const data = [
     {
         id: "1",
         name: "Day 1",
-        link: ""
+        link: "",
     },
     {
         id: "2",

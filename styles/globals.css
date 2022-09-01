@@ -1,16 +1,25 @@
 :root {
+    --primary-color: #000000;
+    --secondary-color: #F2F2F2;
+    --background-primary-color: #6ebe49;
+    --background-secondary-color: #111111;
+    --other-color: #212121;
+}
+
+/* :root {
     --primary-color: #FFF1BD;
     --secondary-color: #F3C892;
     --background-primary-color: #146356;
     --background-secondary-color: #A3DA8D;
     --other-color: #212121;
-}
+} */
 
 body {
-    background-color: var(--background-primary-color);
-    color: var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 a {
@@ -34,32 +43,12 @@ a {
     border-radius: 0;
 }
 
-.particles-container {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden !important;
-    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('https://i.ibb.co/Q8y28XT/2.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-/* .particles-container .particles {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1000;
-} */
-
 .navbar {
-    background-color: var(--other-color);
+    background-color: var(--primary-color);
 }
 
 .navbar a {
-    color: var(--primary-color) !important;
+    color: var(--secondary-color) !important;
 }
 
 .navbar .navbar-toggler {
@@ -71,14 +60,28 @@ a {
     border-radius: 0;
 }
 
-.btn-invert {
-    color: var(--secondary-color) !important;
+.btn-invert,
+.bg-invert {
+    color: var(--primary-color);
     background-color: var(--background-primary-color);
 }
 
-.bg-invert {
-    color: var(--background-primary-color);
-    background-color: var(--primary-color);
+.carousel .carousel-item {
+    height: 98vh;
+}
+
+.carousel .carousel-item img {
+    height: 100%;
+    filter: brightness(45%);
+}
+
+.count {
+    position: fixed;
+    z-index: 1000;
+    font-weight: bold;
+    bottom: 20px;
+    right: 20px;
+    padding: 20px;
 }
 
 #about {
@@ -88,19 +91,19 @@ a {
 .coordinators .card {
     border-radius: 0;
     overflow: hidden;
-    color: var(--other-color);
+    border-color: var(--background-primary-color);
     cursor: pointer;
     background-color: transparent;
     transition: all 0.5s ease-in-out;
 }
 
 .coordinators .card:hover {
-    background-color: var(--secondary-color);
+    background-color: var(--background-primary-color);
 }
 
 .coordinators .card:hover .user-img {
     filter: opacity(.1);
-    transition: all 0.7s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
 .coordinators .card-body {
@@ -124,11 +127,6 @@ a {
     height: 100%;
 }
 
-/* .sponsors .card,
-#gallery .card {
-    border: none;
-} */
-
 #gallery .card {
     border: none;
     border-radius: 0;
@@ -143,26 +141,25 @@ a {
 }
 
 .card {
+    border-radius: 0;
+    border-color: var(--background-primary-color);
+    cursor: pointer;
     background-color: transparent;
-    border-color: var(--background-secondary-color);
     transition: all 0.5s ease-in-out;
 }
 
 .card:hover {
-    color: var(--other-color);
-    background-color: var(--background-secondary-color);
-}
-
-.school .card {
-    cursor: pointer;
+    color: var(--primary-color);
+    background-color: var(--background-primary-color);
 }
 
 .footer {
-    background-color: var(--other-color);
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
 }
 
 .footer .link:hover {
-    color: var(--secondary-color);
+    color: var(--background-primary-color);
 }
 
 @media screen and (max-width: 768px) {
