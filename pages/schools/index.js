@@ -12,7 +12,7 @@ const Index = ({ siteName }) => {
         <title>School Fests | {siteName}</title>
       </Head>
       <div className="container my-5 school">
-        <h1 className="text-center my-5">School Fests</h1>
+        <h1 className="text-center my-5 animate__animated animate__lightSpeedInRight">School Fests</h1>
         <div className="container d-flex flex-wrap justify-content-start h-100">
 
           {schoolData && schoolData.map((school, index) => {

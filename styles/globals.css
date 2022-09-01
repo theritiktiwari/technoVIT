@@ -4,12 +4,12 @@
     --background-primary-color: #146356;
     --background-secondary-color: #A3DA8D;
     --other-color: #212121;
-    /* --navbar-color: #00303F; */
 }
 
 body {
     background-color: var(--background-primary-color);
     color: var(--primary-color);
+    font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -34,20 +34,24 @@ a {
     border-radius: 0;
 }
 
-.particles-cover {
+.particles-container {
     position: relative;
     width: 100vw;
     height: 100vh;
-    overflow: hidden !important;
-    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('https://i.ibb.co/zhw4N57/1.jpg');
+    /* overflow: hidden !important; */
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('https://i.ibb.co/Q8y28XT/2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-
 }
 
-.particles-cover .particles {
-    z-index: 10;
+.particles-container .particles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
 }
 
 .navbar {
@@ -120,9 +124,22 @@ a {
     height: 100%;
 }
 
-.sponsors .card,
+/* .sponsors .card,
 #gallery .card {
     border: none;
+} */
+
+#gallery .card {
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+}
+
+#gallery .card:hover {
+    z-index: 10;
+    transform: scale(1.5);
 }
 
 .card {

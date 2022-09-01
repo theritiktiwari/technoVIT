@@ -1,10 +1,22 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import FlipCountdown from '@rumess/react-flip-countdown';
 
 const Clock = ({ date }) => {
+    const [isMobile, setIsMobile] = useState();
+    useEffect(() => {
+        window.addEventListener('resize', () => {
+            if (window.innerWidth < 550) {
+                setIsMobile(true);
+            } else {
+                setIsMobile(false);
+            }
+        });
+    }, []);
+
     return (
-        <div className="my-4">
+        <div className="my-4 pb-3">
             <FlipCountdown
+                size={isMobile ? 'small' : 'medium'}
                 hideYear
                 hideMonth
                 endAtZero
