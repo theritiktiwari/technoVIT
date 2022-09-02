@@ -34,11 +34,11 @@ const Footer = ({ siteName }) => {
                     <div className="footer-item pt-5">
                         <h3>Connect with Us !</h3>
                         <ul className="d-flex flex-column list-unstyled">
-                            <li><Link target="_blank" href="https://instagram.com/Technovit22"><a className="link"><AiFillInstagram /> Instagram</a></Link></li>
-                            <li><Link target="_blank" href="https://snapchat.com/add/technovit22"><a className="link"><BsSnapchat /> Snapchat</a></Link></li>
-                            <li><Link target="_blank" href="https://youtube.com/channel/UChTqHUsS72cFAujVRUqRs9g"><a className="link"><BsYoutube /> Youtube</a></Link></li>
-                            <li><Link target="_blank" href="mailto:technovit22@gmail.com"><a className="link"><IoMdMail /> Mail</a></Link></li>
-                            <li><Link target="_blank" href="https://twitter.com/technovit22"><a className="link"><BsTwitter /> Twitter</a></Link></li>
+                            <li><a target="_blank" href="https://instagram.com/Technovit22"><a className="link"><AiFillInstagram /> Instagram</a></a></li>
+                            <li><a target="_blank" href="https://snapchat.com/add/technovit22"><a className="link"><BsSnapchat /> Snapchat</a></a></li>
+                            <li><a target="_blank" href="https://youtube.com/channel/UChTqHUsS72cFAujVRUqRs9g"><a className="link"><BsYoutube /> Youtube</a></a></li>
+                            <li><a target="_blank" href="mailto:technovit22@gmail.com"><a className="link"><IoMdMail /> Mail</a></Link></li>
+                            <li><a target="_blank" href="https://twitter.com/technovit22"><a className="link"><BsTwitter /> Twitter</a></a></li>
                         </ul>
                     </div>
                 </div>
