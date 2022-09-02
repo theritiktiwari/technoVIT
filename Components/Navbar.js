@@ -93,9 +93,9 @@ const Navbar = ({ siteName }) => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link target="_blank" href="https://vitchennaievents.com/technovit/">
+                <a target="_blank" href="https://vitchennaievents.com/technovit/">
                   <a className="btn btn-green">Register</a>
-                </Link>
+                </a>
               </li>
             </ul>
           </div>

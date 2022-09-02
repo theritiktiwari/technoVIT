@@ -28,17 +28,17 @@ const Footer = ({ siteName }) => {
                             <li><Link href="/#about"><a className="link">About</a></Link></li>
                             <li><Link href="/"><a className="link">Schedule</a></Link></li>
                             <li><Link href="/#venue"><a className="link">Venue</a></Link></li>
-                            <li><a target="_blank" href="https://vitchennaievents.com/technovit/"><a className="link">Register</a></a></li>
+                            <li><a className="link" target="_blank" href="https://vitchennaievents.com/technovit/">Register</a></li>
                         </ul>
                     </div>
                     <div className="footer-item pt-5">
                         <h3>Connect with Us !</h3>
                         <ul className="d-flex flex-column list-unstyled">
-                            <li><a target="_blank" href="https://instagram.com/Technovit22"><a className="link"><AiFillInstagram /> Instagram</a></a></li>
-                            <li><a target="_blank" href="https://snapchat.com/add/technovit22"><a className="link"><BsSnapchat /> Snapchat</a></a></li>
-                            <li><a target="_blank" href="https://youtube.com/channel/UChTqHUsS72cFAujVRUqRs9g"><a className="link"><BsYoutube /> Youtube</a></a></li>
-                            <li><a target="_blank" href="mailto:technovit22@gmail.com"><a className="link"><IoMdMail /> Mail</a></Link></li>
-                            <li><a target="_blank" href="https://twitter.com/technovit22"><a className="link"><BsTwitter /> Twitter</a></a></li>
+                            <li><a className="link" target="_blank" href="https://instagram.com/Technovit22"><AiFillInstagram /> Instagram</a></li>
+                            <li><a className="link" target="_blank" href="https://snapchat.com/add/technovit22"><BsSnapchat /> Snapchat</a></li>
+                            <li><a className="link" target="_blank" href="https://youtube.com/channel/UChTqHUsS72cFAujVRUqRs9g"><BsYoutube /> Youtube</a></li>
+                            <li><a className="link" target="_blank" href="mailto:technovit22@gmail.com"><IoMdMail /> Mail</a></li>
+                            <li><a className="link" target="_blank" href="https://twitter.com/technovit22"><BsTwitter /> Twitter</a></li>
                         </ul>
                     </div>
                 </div>
