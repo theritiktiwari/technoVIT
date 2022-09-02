@@ -45,7 +45,7 @@ const data = [
         id: "8",
         name: "LiLacs",
         link: "lilacs",
-        image: "",
+        image: "https://i.imgur.com/kA9Yrsz.png",
     },
     {
         id: "9",
