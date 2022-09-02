@@ -25,11 +25,11 @@ const ID = ({ siteName }) => {
                     id == "qubit" ? qubit :
                         id == "srishti" ? srishti :
                             id == "taikuun" ? taikuun :
-                                id == "vitlilacs" ? vitlilacs :
+                                id == "lilacs" ? vitlilacs :
                                     id == "vitness" ? vitness :
                                         id == "vsplash" ? vsplash : [];
 
-    const slug = ["bandvit", "connectivitieee", "diseno", "glitz", "qubit", "srishti", "taikuun", "vitlilacs", "vitness", "vsplash"];
+    const slug = ["bandvit", "connectivitieee", "diseno", "glitz", "qubit", "srishti", "taikuun", "lilacs", "vitness", "vsplash"];
 
     return (
         <>
