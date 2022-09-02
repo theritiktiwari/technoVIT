@@ -9,7 +9,7 @@ import glitz from "../../Components/data/schoolData/glitz";
 import qubit from "../../Components/data/schoolData/qubit";
 import srishti from "../../Components/data/schoolData/srishti";
 import taikuun from "../../Components/data/schoolData/taikuun";
-import vitlilacs from "../../Components/data/schoolData/vitlilacs";
+import vitlilacs from "../../Components/data/schoolData/lilacs";
 import vitness from "../../Components/data/schoolData/vitness";
 import vsplash from "../../Components/data/schoolData/vsplash";
 
