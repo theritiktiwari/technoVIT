@@ -79,7 +79,7 @@ const Navbar = ({ siteName }) => {
               </li>
               <li className="nav-item">
                 <Link href="/schools">
-                  <a className="nav-link">Schools</a>
+                  <a className="nav-link">School Fests</a>
                 </Link>
               </li>
               <li className="nav-item">
@@ -88,12 +88,12 @@ const Navbar = ({ siteName }) => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="https://drive.google.com/file/d/1PBPpzBG5ICDf-8enbA9yn0I-ekCvbX5P/preview">
+                <Link target="_blank" href="https://drive.google.com/file/d/1PBPpzBG5ICDf-8enbA9yn0I-ekCvbX5P/preview">
                   <a className="nav-link me-2">Sponsors</a>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="https://vitchennaievents.com/technovit/">
+                <Link target="_blank" href="https://vitchennaievents.com/technovit/">
                   <a className="btn btn-green">Register</a>
                 </Link>
               </li>
