@@ -185,7 +185,7 @@ export default function Home({ siteName }) {
             />
             <div className="carousel-caption d-none d-md-block">
               <h5>23-25, September 2022</h5>
-              <p>A beginning of a biggest tech fest of VIT.</p>
+              <p>A beginning of a biggest tech fest of VIT Chennai</p>
             </div>
           </div>
           <div className="carousel-item">
