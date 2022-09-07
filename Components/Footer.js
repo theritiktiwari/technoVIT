@@ -27,8 +27,7 @@ const Footer = ({ siteName }) => {
                             <li><Link href="/"><a className="link">Home</a></Link></li>
                             <li><Link href="/#about"><a className="link">About</a></Link></li>
                             <li><Link href="/#venue"><a className="link">Venue</a></Link></li>
-                            <li><Link href="/schools"><a className="link">Schools</a></Link></li>
-                            <li><Link href="/#gallery"><a className="link">Gallery</a></Link></li>
+                            <li><Link href="https://vitchennaievents.com/technovit/"><a className="link">Register</a></Link></li>
                         </ul>
                     </div>
                     <div className="footer-item pt-5">

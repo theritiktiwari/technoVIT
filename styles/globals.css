@@ -78,7 +78,6 @@ a {
 .count {
     position: fixed;
     z-index: 1000;
-    font-weight: bold;
     bottom: 20px;
     right: 20px;
     padding: 20px;

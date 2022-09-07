@@ -10,7 +10,7 @@ import glitz from "../../Components/data/schoolData/glitz";
 import qubit from "../../Components/data/schoolData/qubit";
 import srishti from "../../Components/data/schoolData/srishti";
 import taikuun from "../../Components/data/schoolData/taikuun";
-import vitlilacs from "../../Components/data/schoolData/vitlilacs";
+import vitlilacs from "../../Components/data/schoolData/lilacs";
 import vitness from "../../Components/data/schoolData/vitness";
 import vsplash from "../../Components/data/schoolData/vsplash";
 import NaturalImage from '../../Components/NaturalImage';
@@ -27,11 +27,11 @@ const ID = ({ siteName }) => {
                     id == "qubit" ? qubit :
                         id == "srishti" ? srishti :
                             id == "taikuun" ? taikuun :
-                                id == "vitlilacs" ? vitlilacs :
+                                id == "lilacs" ? vitlilacs :
                                     id == "vitness" ? vitness :
                                         id == "vsplash" ? vsplash : [];
 
-    const slug = ["bandvit", "connectivitieee", "diseno", "glitz", "qubit", "srishti", "taikuun", "vitlilacs", "vitness", "vsplash"];
+    const slug = ["bandvit", "connectivitieee", "diseno", "glitz", "qubit", "srishti", "taikuun", "lilacs", "vitness", "vsplash"];
 
     return (
         <>

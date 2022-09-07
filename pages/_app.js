@@ -8,6 +8,8 @@ import '../styles/globals.css'
 import Navbar from '../Components/Navbar';
 import Footer from '../Components/Footer';
 
+import '../styles/globals.css'
+
 function MyApp({ Component, pageProps }) {
   const siteName = "technoVIT";
   const date = "2022-09-22 11:59:59";

@@ -43,9 +43,9 @@ const data = [
     },
     {
         id: "8",
-        name: "VITLiLacs",
-        link: "vitlilacs",
-        image: "",
+        name: "LiLacs",
+        link: "lilacs",
+        image: "https://i.imgur.com/kA9Yrsz.png",
     },
     {
         id: "9",

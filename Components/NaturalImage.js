@@ -1,4 +1,4 @@
-import Img from "next/image";
+import Image from "next/image";
 import { useState } from "react";
 
 const NaturalImage = (props) => {
@@ -6,7 +6,7 @@ const NaturalImage = (props) => {
   // const height = props.height;
   const width = props.width;
   return (
-    <Img
+    <Image
       alt="..."
       {...props}
       // set the dimension (affected by layout)
