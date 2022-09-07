@@ -2,9 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-const logo = "https://i.imgur.com/kWQb9MI.png";
-
-const Navbar = ({ siteName }) => {
+const Navbar = ({ siteName, logo }) => {
   return (
     <>
       <nav className="navbar navbar-expand-lg sticky-top">

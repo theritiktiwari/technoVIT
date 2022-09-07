@@ -1,10 +1,11 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { BsTwitter, BsSnapchat, BsYoutube } from 'react-icons/bs';
 import { IoMdMail } from 'react-icons/io';
 import { AiFillInstagram } from 'react-icons/ai';
 
-const Footer = ({ siteName }) => {
+const Footer = ({ siteName, logo }) => {
     const copyright = (year) => {
         const currYear = new Date().getFullYear();
         return year === currYear ? year : `${year}-${currYear % 100}`;
@@ -14,7 +15,12 @@ const Footer = ({ siteName }) => {
             <div className="container-fluid footer pb-3">
                 <div className="items container d-flex justify-content-between">
                     <div className="footer-item pt-5">
-                        <h3>{siteName}</h3>
+                        <Link href="/">
+                            <a className="navbar-brand">
+                                {logo ? <Image src={logo} height={50} width={150} alt={"technoVIT"} /> : <h3>{siteName}</h3>}
+                            </a>
+                        </Link>
+                        {/* <h3>{siteName}</h3> */}
                         <ul className="d-flex flex-column list-unstyled">
                             <li className="my-2">VIT Chennai</li>
                             <li className="my-1">Vandalur Kelambakkam Road</li>
