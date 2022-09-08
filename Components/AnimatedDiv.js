@@ -16,14 +16,14 @@ export const animations = {
   },
 };
 
-const Div = ({ children, animationStyle, ...rest }) => {
+const Div = ({ children, animationStyle = "", ...rest }) => {
   const animation = animationStyle ? animationStyle : animations.bottomToTop;
 
   return (
     <motion.div
       className="container-fluid p-2"
       {...animation}
-      transition={{ duration: 0.4 }}
+      transition={{ duration: 0.6 }}
       viewport={{ once: false }}
       {...rest}
     >
