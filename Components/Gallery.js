@@ -27,21 +27,13 @@ const Gallery = () => {
         });
     }, []);
     return (
-        <div className="container-fluid py-5" id="gallery">
-            <h2 className="text-center mb-4 heading">Gallery</h2>
-            <div className="slid-er">
-                <div className="slides" id="slides">
-                    {data && data.map((val, index) => {
-                        return <div key={index} className="slide">
-                            <div className="slide-content">
-                                <img src={val.image || dummyImage} alt={val.name} />
-                            </div>
-                        </div>
-                    })}
-                </div>
-            </div>
-        </div>
-    );
+    <Div className="container-fluid py-5" id="gallery">
+      <h2 className="text-center mb-3" style={{ fontFamily: "Aquire1", fontSize: "60px"}}>Gallery</h2>
+      <div className="container">
+        <ImageGallery items={images} autoPlay />
+      </div>
+    </Div>
+  );
 };
 
 export default Gallery;
