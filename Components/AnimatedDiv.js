@@ -23,7 +23,7 @@ const Div = ({ children, animationStyle, ...rest }) => {
     <motion.div
       className="container-fluid p-2"
       {...animation}
-      transition={{ duration: 0.4 }}
+      transition={{ duration: 0.6 }}
       viewport={{ once: false }}
       {...rest}
     >
