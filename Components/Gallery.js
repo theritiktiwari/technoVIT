@@ -1,32 +1,23 @@
-import React, { useEffect } from "react";
+import React from "react";
 import data from "./data/gallery";
+import ImageGallery from "react-image-gallery";
+import "react-image-gallery/styles/css/image-gallery.css";
+import Div from "./AnimatedDiv";
 
-const dummyImage = "https://i.ibb.co/HYj6Tgk/environmental-sustainability.jpg";
+const image = "https://i.ibb.co/HYj6Tgk/environmental-sustainability.jpg";
+
+const images = data.map(({ link, name }) => {
+  return {
+    original: link || image,
+    thumbnail: link,
+    // description: name,
+    loading: "eager",
+    thumbnailLoading: "eager",
+  };
+});
 
 const Gallery = () => {
-    useEffect(() => {
-        let xOffset = 0;
-        let isMouseIn = false;
-        const slides = document.getElementById("slides");
-
-        setInterval(translate, 0);
-
-        function translate() {
-            let offsetIncrementor = isMouseIn ? 0.05 : 0.2;
-            if (xOffset >= 258 * 7) xOffset = 0;
-            else xOffset = xOffset + offsetIncrementor;
-            slides.style.transform = "translateX(-" + xOffset + "px)";
-        }
-
-        slides.addEventListener("mouseover", function (event) {
-            isMouseIn = true;
-        });
-
-        slides.addEventListener("mouseout", function (event) {
-            isMouseIn = false;
-        });
-    }, []);
-    return (
+  return (
     <Div className="container-fluid py-5" id="gallery">
       <h2 className="text-center mb-3">Gallery</h2>
       <div className="container">
