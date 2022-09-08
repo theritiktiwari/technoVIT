@@ -213,10 +213,10 @@ const Landing = () => {
                     <div className="text">
                         <div className="patterns">
                             <svg width="100%" height="100%">
-                                <text x="50%" y="50%" textAnchor="middle">technoVIT</text>
+                                <text x="50%" y="50%" textAnchor="middle">technoVIT'22</text>
                             </svg>
                             <h2 className='text-center'>September 23 to September 25</h2>
-                            <p className='text-center'>Staring of the biggest tech fest of VIT Chennai</p>
+                            <p className='text-center'>Starting of the biggest tech fest of VIT Chennai</p>
                         </div>
                     </div>
                 </div>
