@@ -7,6 +7,7 @@ import Schedule from '../Components/Schedule';
 import Schools from '../Components/Schools';
 import Social from '../Components/Social';
 import Venue from '../Components/Venue';
+import Dailyevents from "../Components/Dailyevents";
 import Div from "../Components/AnimatedDiv";
 
 export default function Home({ siteName, date, count }) {
@@ -15,6 +16,7 @@ export default function Home({ siteName, date, count }) {
       <Landing />
       <About siteName={siteName} />
       <Clock date={date} />
+      <Dailyevents/>
       <Schedule />
       <Schools />
       <Coordinators />
