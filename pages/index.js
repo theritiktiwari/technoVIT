@@ -6,6 +6,7 @@ import Schedule from '../Components/Schedule'
 import Coordinators from '../Components/Coordinators'
 import Venue from '../Components/Venue'
 import Gallery from '../Components/Gallery'
+import Schools from '../Components/Schools'
 
 export default function Home({ siteName, date, count }) {
   const [show, setShow] = useState(false);
@@ -24,6 +25,7 @@ export default function Home({ siteName, date, count }) {
       <Landing />
       <About siteName={siteName} />
       <Clock date={date} />
+      <Schools />
       <Coordinators />
       <Schedule />
       <Venue />
