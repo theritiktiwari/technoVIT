@@ -7,6 +7,7 @@ import Schedule from '../Components/Schedule';
 import Schools from '../Components/Schools';
 import Social from '../Components/Social';
 import Venue from '../Components/Venue';
+import Div from "../Components/AnimatedDiv";
 
 export default function Home({ siteName, date, count }) {
   return (
