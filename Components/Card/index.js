@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "./card.module.css";
 
+const userImage = "https://i.ibb.co/yWZR9j0/Avatar.png";
+
 const FlipCard = ({ image, name, designation, phone }) => {
   return (
     <div className={styles.card}>
