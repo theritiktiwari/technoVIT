@@ -1,9 +1,11 @@
 :root {
-    --primary-color: #000000;
-    --secondary-color: #F2F2F2;
-    --background-primary-color: #6ebe49;
-    --background-secondary-color: #111111;
-    --other-color: #212121;
+  --primary-color: #000000;
+  --secondary-color: #f2f2f2;
+  --background-primary-color: #5ed925;
+  --background-primary-light: #9fff72;
+  --background-primary-dark: #3cbc00;
+  --background-secondary-color: #111111;
+  --other-color: #212121;
 }
 
 /* :root {
@@ -15,163 +17,168 @@
 } */
 
 body {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-    font-family: 'Montserrat', sans-serif;
-    scroll-behavior: smooth;
-    overflow-x: hidden;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 a {
-    color: inherit;
-    text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 .h-100 {
-    height: 100%;
+  height: 100%;
+}
+
+.bold {
+  font-weight: 600;
 }
 
 .btn {
-    border-radius: 0;
+  border-radius: 0;
 }
 
 .navbar {
-    background-color: var(--primary-color);
+  background-color: var(--primary-color);
 }
 
 .navbar a {
-    color: var(--secondary-color) !important;
+  color: var(--secondary-color) !important;
 }
 
 .navbar .navbar-toggler {
-    border-color: transparent !important;
-    border-radius: 0;
+  border-color: transparent !important;
+  border-radius: 0;
 }
 
 .btn {
-    border-radius: 0;
+  border-radius: 0;
 }
 
 .btn-invert,
 .bg-invert {
-    color: var(--primary-color);
-    background-color: var(--background-primary-color);
+  color: var(--primary-color);
+  background-color: var(--background-primary-color);
 }
 
 .carousel .carousel-item {
-    height: 98vh;
+  height: 98vh;
 }
 
 .carousel .carousel-item img {
-    height: 100%;
-    filter: brightness(45%);
+  height: 100%;
+  filter: brightness(45%);
 }
 
 .count {
-    position: fixed;
-    z-index: 1000;
-    bottom: 20px;
-    right: 20px;
-    padding: 20px;
+  position: fixed;
+  z-index: 1000;
+  bottom: 20px;
+  right: 20px;
+  padding: 20px;
 }
 
 #about {
-    width: 60%;
+  width: 60%;
 }
 
 .coordinators .card {
-    border-radius: 0;
-    overflow: hidden;
-    border-color: var(--background-primary-color);
-    cursor: pointer;
-    background-color: transparent;
-    transition: all 0.5s ease-in-out;
+  border-radius: 0;
+  overflow: hidden;
+  /* border-color: var(--background-primary-color); */
+  border: none;
+  cursor: pointer;
+  /* background-color: white; */
+  /* transition: all 0.5s ease-in-out; */
 }
 
 .coordinators .card:hover {
-    background-color: var(--background-primary-color);
+  background-color: var(--background-primary-color);
 }
 
 .coordinators .card:hover .user-img {
-    filter: opacity(.1);
-    transition: all 0.5s ease-in-out;
+  filter: opacity(0.1);
+  transition: all 0.5s ease-in-out;
 }
 
 .coordinators .card-body {
-    height: 0;
-    transform: translateY(200px);
-    transition: transform 0.5s ease-in-out;
+  height: 0;
+  transform: translateY(200px);
+  transition: transform 0.5s ease-in-out;
 }
 
 .coordinators .card:hover .card-body {
-    transform: translateY(-100px);
+  transform: translateY(-100px);
 }
 
 .user-img {
-    width: 250px;
-    height: 250px;
+  width: 250px;
+  height: 250px;
 }
 
 .user-img img {
-    border-radius: 100% !important;
-    width: 100%;
-    height: 100%;
+  /* border-radius: 100% !important; */
+  width: 100%;
+  height: 100%;
 }
 
 #gallery .card {
-    border: none;
-    border-radius: 0;
-    cursor: pointer;
-    position: relative;
-    transition: all 0.5s ease-in-out;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.5s ease-in-out;
 }
 
 #gallery .card:hover {
-    z-index: 10;
-    transform: scale(1.5);
+  z-index: 10;
+  transform: scale(1.5);
 }
 
 .card {
-    border-radius: 0;
-    border-color: var(--background-primary-color);
-    cursor: pointer;
-    background-color: transparent;
-    transition: all 0.5s ease-in-out;
+  border-radius: 0;
+  border-color: var(--background-primary-color);
+  cursor: pointer;
+  background-color: transparent;
+  transition: all 0.5s ease-in-out;
 }
 
 .card:hover {
-    color: var(--primary-color);
-    background-color: var(--background-primary-color);
+  color: var(--primary-color);
+  background-color: var(--background-primary-color);
 }
 
 .footer {
-    color: var(--secondary-color);
-    background-color: var(--primary-color);
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
 }
 
 .footer .link:hover {
-    color: var(--background-primary-color);
+  color: var(--background-primary-color);
 }
 
 @media screen and (max-width: 768px) {
-    #about {
-        width: 90%;
-    }
+  #about {
+    width: 90%;
+  }
 
-    .school .container,
-    .sponsors .container {
-        justify-content: center !important;
-    }
+  .school .container,
+  .sponsors .container {
+    justify-content: center !important;
+  }
 
-    .footer .items {
-        flex-direction: column;
-    }
+  .footer .items {
+    flex-direction: column;
+  }
 }
