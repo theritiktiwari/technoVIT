@@ -66,10 +66,19 @@ a {
   border-radius: 0;
 }
 
-.btn-invert,
+.btn-invert{
+  color: var(--primary-color);
+  background-color: #3cba8e;
+}
+
+.btn-darke{
+  background-color: #73c26b;
+  font-weight: bolder;
+  color: #000;
+}
 .bg-invert {
   color: var(--primary-color);
-  background-color: var(--background-primary-color);
+  background-color: #ccff8c;
 }
 
 .carousel .carousel-item {
@@ -112,6 +121,9 @@ a {
   transition: all 0.5s ease-in-out;
 }
 
+.card-titlee{
+  font-weight: bolder;
+}
 .coordinators .card-body {
   height: 0;
   transform: translateY(200px);
@@ -148,15 +160,15 @@ a {
 
 .card {
   border-radius: 0;
-  border-color: var(--background-primary-color);
+  border-color:rgb(83, 82, 82);
   cursor: pointer;
   background-color: transparent;
   transition: all 0.5s ease-in-out;
 }
 
 .card:hover {
-  color: var(--primary-color);
-  background-color: var(--background-primary-color);
+  color: #fff;
+  background-color: #3a55b4;
 }
 
 .footer {

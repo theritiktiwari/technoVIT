@@ -23,7 +23,7 @@
 }
 
 .card:hover .hover_container {
-  background-color: var(--background-primary-dark);
+  background-color: #3cba8e;
   transform: translateY(-150px);
   justify-content: center;
   border-radius: 10px 10px 0px 0px;

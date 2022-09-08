@@ -8,7 +8,6 @@ const Schools = ({ siteName }) => {
     return (
         <div>
             <Head>
-                <title>School Fests | {siteName}</title>
             </Head>
             <div className="container my-5 school">
                 <h1 className="text-center my-5 animate__animated animate__lightSpeedInRight">School Fests</h1>
@@ -23,7 +22,7 @@ const Schools = ({ siteName }) => {
                                         {/* <img src={school.image ? `${school.image}` : userImage} alt={school.name} style={{ width: "100%" }} /> */}
                                     </div>
                                     <div className="card-body">
-                                        <h5 className="card-title text-center">{school.name}</h5>
+                                        <h5 className="card-titlee text-center">{school.name}</h5>
                                     </div>
                                 </div>
                             </a>

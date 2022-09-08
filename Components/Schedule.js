@@ -43,7 +43,7 @@ const Schedule = () => {
                     target="_blank"
                     href={item.link}
                     onClick={!item.link ? (e) => popup(e) : ""}
-                    className="btn btn-dark m-2"
+                    className="btn btn-darke m-2"
                   >
                     {item.name}
                   </a>
