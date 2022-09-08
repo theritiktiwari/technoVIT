@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 const Landing = () => {
     const image1 = "https://i.imgur.com/SN1FQBH.gif";
@@ -20,7 +20,6 @@ const Landing = () => {
                 className="carousel slide"
                 data-bs-ride="carousel"
             >
-
                 <div className="carousel-indicators">
                     <button
                         type="button"
@@ -71,35 +70,7 @@ const Landing = () => {
                     <span className="visually-hidden">Next</span>
                 </button>
             </div>
-          </div>
-        </div>
-        <button
-          className="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="prev"
-        >
-          <span
-            className="carousel-control-prev-icon"
-            aria-hidden="true"
-          ></span>
-          <span className="visually-hidden">Previous</span>
-        </button>
-        <button
-          className="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="next"
-        >
-          <span
-            className="carousel-control-next-icon"
-            aria-hidden="true"
-          ></span>
-          <span className="visually-hidden">Next</span>
-        </button>
-      </div>
-    </>
-  );
-};
-
-export default Landing;
+        </>
+    )
+}
+export default Landing
