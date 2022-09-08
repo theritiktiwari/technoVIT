@@ -12,6 +12,7 @@
     "@rumess/react-flip-countdown": "^1.2.6",
     "aos": "^2.3.4",
     "countapi-js": "^1.0.2",
+    "framer-motion": "^7.3.2",
     "next": "12.2.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
