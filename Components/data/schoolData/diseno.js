@@ -12,7 +12,7 @@ const data = [
     {
         id: "3",
         name: "Special Team Showcase",
-        image: "https://i.ibb.co/yXCXRsp/e-no-waste-a4-poster.png"
+        image: "https://i.imgur.com/dE1NKTB.png"
     }
 ]
 

@@ -11,13 +11,13 @@ const data = [
   },
   {
     id: "3",
-    name: "BioPrinting: An Introduction and Application",
+    name: "BioPrinting",
     image: "https://i.imgur.com/wy04uTA.jpg",
   },
   {
     id: "4",
     name: "Signathon",
-    image: "https://i.ibb.co/2MhHC6S/ROBO-COLLOQUY.png",
+    image: "https://i.imgur.com/7LbQChZ.jpg",
   },
 ];
 
