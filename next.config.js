@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
-
 const nextConfig = {
   reactStrictMode: true,
+  swcMinify: true,
   images: {
     domains: [
       "chennai.vit.ac.in",
@@ -12,10 +12,6 @@ const nextConfig = {
       "i.ibb.co",
     ],
   },
-  swcMinify: true,
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-};
+}
 
 module.exports = nextConfig

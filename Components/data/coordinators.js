@@ -26,7 +26,7 @@ const data = [
     {
         id: "4",
         name: "Yashvardhan Gupta",
-        image: "https://i.imgur.com/UFmGQX3.jpg",
+        image: "https://i.imgur.com/WZVqUJY.png",
         designation: "Batch of 2020",
         phone: "+919250987858",
         email: "yashvardhang11@gmail.com"
@@ -34,7 +34,7 @@ const data = [
     {
         id: "5",
         name: "Maktoum Ali",
-        image: "https://i.imgur.com/eEsu8si.jpg",
+        image: "https://i.imgur.com/775hWm6.png",
         designation: "Batch of 2020",
         phone: "+917358511590",
         email: "maktoumali2020@vitstudent.ac.in"

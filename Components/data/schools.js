@@ -15,7 +15,7 @@ const data = [
         id: "3",
         name: "Diseño",
         link: "diseno",
-        image: "https://i.ibb.co/njKzqqJ/Diseno_White%20Logo.png",
+        image: "https://i.ibb.co/J7DxtTQ/Diseno.png",
     },
     {
         id: "4",
@@ -45,7 +45,7 @@ const data = [
         id: "8",
         name: "LiLacs",
         link: "lilacs",
-        image: "https://i.imgur.com/kA9Yrsz.png",
+        image: "https://i.imgur.com/Hw6rqcU.png",
     },
     {
         id: "9",

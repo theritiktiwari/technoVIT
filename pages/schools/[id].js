@@ -1,6 +1,5 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Head from "next/head";
-import Image from 'next/image';
 import { useRouter } from 'next/router'
 
 import bandvit from "../../Components/data/schoolData/bandvit";
@@ -33,22 +32,58 @@ const ID = ({ siteName }) => {
 
     const slug = ["bandvit", "connectivitieee", "diseno", "glitz", "qubit", "srishti", "taikuun", "lilacs", "vitness", "vsplash"];
 
+    useEffect(() => {
+        let box = document.getElementsByClassName("poster-image");
+
+        for (let i = 0; i < box.length; i++) {
+            let el = box[i];
+
+            const height = 200;
+            const width = 300;
+
+            el.addEventListener("mousemove", handleMove);
+
+            function handleMove(e) {
+                const xVal = e.layerX;
+                const yVal = e.layerY;
+
+                const yRotation = 20 * ((xVal - width / 2) / width);
+                const xRotation = -20 * ((yVal - height / 2) / height);
+
+                const string = "perspective(1000px) scale(1.1) rotateX(" + xRotation + "deg) rotateY(" + yRotation + "deg)";
+
+                el.style.transform = string;
+            }
+
+            el.addEventListener("mouseout", function () {
+                el.style.transform = "perspective(1000px) scale(1) rotateX(0) rotateY(0)";
+            });
+
+            el.addEventListener("mousedown", function () {
+                el.style.transform = "perspective(1000px) scale(0.9) rotateX(0) rotateY(0)";
+            });
+
+            el.addEventListener("mouseup", function () {
+                el.style.transform = "perspective(1000px) scale(1.1) rotateX(0) rotateY(0)";
+            });
+        }
+    }, [])
+
     return (
         <>
             <Head>
                 <title>{id} | {siteName}</title>
             </Head>
-            <div className="container my-5">
+            <div className="container my-5 py-5 school">
                 <h1 className="text-center my-5 text-uppercase">{id} Events</h1>
                 <div className="container d-flex flex-wrap justify-content-around">
                     {data && data.map((item, index) => {
                         return item.name ?
                             <a href="https://vitchennaievents.com/technovit/" id={index}>
                                 <div className="card p-3 m-2" style={{ width: "18rem", height: "25rem" }} >
-                                    <NaturalImage src={item.image ? item.image : image} width={1000} height={1200} />
-                                    {/* <Image src={item.image ? item.image : image} className="card-img-top" alt={item.name} height={2000} width={500} /> */}
+                                    <NaturalImage className={"poster-image image"} src={item.image ? item.image : image} width={1000} height={1200} />
                                     <div className="card-body">
-                                        <h5 className="card-title text-center">{item.name}</h5>
+                                        <h5 className="card-title text-center text-dark">{item.name}</h5>
                                     </div>
                                 </div>
                             </a> : <h4 className='text-center my-4'>No listed events.</h4>;

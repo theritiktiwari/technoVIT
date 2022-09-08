@@ -1,76 +1,229 @@
 import React from 'react'
+// import Particles from "react-particles";
 
 const Landing = () => {
-    const image1 = "https://i.imgur.com/SN1FQBH.gif";
-    // const image2 = "https://i.ibb.co/0Qxx5xZ/BandVit.png";
-    // const image3 = "https://i.ibb.co/QKJxwzp/connectivitieee.png";
-    // const image4 = "https://i.ibb.co/njKzqqJ/Diseno_White%20Logo.png";
-    // const image5 = "https://i.ibb.co/dQyKs7G/glitz.png";
-    // const image6 = "https://i.ibb.co/3SKHwXY/qubit.png";
-    // const image7 = "https://i.ibb.co/TM6hcBd/srishti.png";
-    // const image8 = "https://i.ibb.co/w6k6yDr/taikuun.png";
-    // const image9 = "https://i.imgur.com/kA9Yrsz.png";
-    // const image10 = "https://i.ibb.co/Q6TbnFZ/vitness.png";
-    // const image11 = "https://i.ibb.co/F8sGYtB/vsplash.png";
+    // const customInit = useCallback(async (engine) => {
+    //     await loadFull(engine);
+    // });
 
+    // const options = {
+    //     particles: {
+    //         number: {
+    //             value: 80,
+    //             density: {
+    //                 enable: true,
+    //                 value_area: 800,
+    //                 factor: 1000
+    //             }
+    //         },
+    //         fullscreen: {
+    //             enable: false,
+    //         },
+
+    //         color: {
+    //             value: "#888888"
+    //         },
+
+    //         shape: {
+    //             type: "circle",
+    //             stroke: {
+    //                 width: 0,
+    //                 color: "#000000"
+    //             },
+    //             polygon: {
+    //                 nb_sides: 5
+    //             },
+    //         },
+
+    //         opacity: {
+    //             value: 0.7,
+    //             random: false,
+    //             anim: {
+    //                 enable: false,
+    //                 speed: 1,
+    //                 opacity_min: 0.1,
+    //                 sync: false
+    //             }
+    //         },
+
+    //         size: {
+    //             value: 5,
+    //             random: true,
+    //             anim: {
+    //                 enable: false,
+    //                 speed: 1,
+    //                 size_min: 0.1,
+    //                 sync: false
+    //             }
+    //         },
+
+    //         line_linked: {
+    //             enable: true,
+    //             distance: 150,
+    //             color: "#777",
+    //             opacity: 0.6,
+    //             width: 1
+    //         },
+
+    //         move: {
+    //             enable: true,
+    //             speed: 2,
+    //             direction: "none",
+    //             random: false,
+    //             straight: false,
+    //             out_mode: "out",
+    //             attract: {
+    //                 enable: false,
+    //                 rotateX: 600,
+    //                 rotateY: 1200
+    //             }
+    //         }
+    //     },
+
+
+    //     "interactivity": {
+    //         "detectsOn": "canvas",
+    //         "events": {
+    //             "onClick": {
+    //                 "enable": true,
+    //                 "mode": "push"
+    //             },
+    //             "onDiv": {
+    //                 "selectors": [],
+    //                 "enable": false,
+    //                 "mode": [],
+    //                 "type": "circle"
+    //             },
+    //             "onHover": {
+    //                 "enable": true,
+    //                 "mode": "none",
+    //                 "parallax": {
+    //                     "enable": true,
+    //                     "force": 60,
+    //                     "smooth": 10
+    //                 }
+    //             },
+    //             "resize": true
+    //         },
+    //         "modes": {
+    //             "attract": {
+    //                 "distance": 200,
+    //                 "duration": 0.4,
+    //                 "easing": "ease-out-quad",
+    //                 "factor": 1,
+    //                 "maxSpeed": 50,
+    //                 "speed": 1
+    //             },
+    //             "bounce": {
+    //                 "distance": 200
+    //             },
+    //             "bubble": {
+    //                 "distance": 400,
+    //                 "duration": 2,
+    //                 "mix": false,
+    //                 "opacity": 0.8,
+    //                 "size": 40
+    //             },
+    //             "connect": {
+    //                 "distance": 80,
+    //                 "links": {
+    //                     "opacity": 0.5
+    //                 },
+    //                 "radius": 60
+    //             },
+    //             "grab": {
+    //                 "distance": 400,
+    //                 "links": {
+    //                     "blink": false,
+    //                     "consent": false,
+    //                     "opacity": 1
+    //                 }
+    //             },
+    //             "light": {
+    //                 "area": {
+    //                     "gradient": {
+    //                         "start": {
+    //                             "value": "#ffffff"
+    //                         },
+    //                         "stop": {
+    //                             "value": "#000000"
+    //                         }
+    //                     },
+    //                     "radius": 1000
+    //                 },
+    //                 "shadow": {
+    //                     "color": {
+    //                         "value": "#000000"
+    //                     },
+    //                     "length": 2000
+    //                 }
+    //             },
+    //             "push": {
+    //                 "default": true,
+    //                 "groups": [],
+    //                 "quantity": 4
+    //             },
+    //             "remove": {
+    //                 "quantity": 2
+    //             },
+    //             "repulse": {
+    //                 "distance": 200,
+    //                 "duration": 0.4,
+    //                 "factor": 100,
+    //                 "speed": 1,
+    //                 "maxSpeed": 50,
+    //                 "easing": "ease-out-quad"
+    //             },
+    //             "slow": {
+    //                 "factor": 3,
+    //                 "radius": 200
+    //             },
+    //             "trail": {
+    //                 "delay": 1,
+    //                 "pauseOnStop": false,
+    //                 "quantity": 1
+    //             }
+    //         }
+    //     },
+
+    //     "manualParticles": [],
+    //     "motion": {
+    //         "disable": false,
+    //         "reduce": {
+    //             "factor": 4,
+    //             "value": true
+    //         }
+    //     },
+
+    //     "detectRetina": true,
+    //     "duration": 0,
+    //     "fpsLimit": 60,
+    //     "pauseOnBlur": true,
+    //     "pauseOnOutsideViewport": true,
+    //     "responsive": [],
+    //     "themes": [],
+    //     "zLayers": 100
+    // };
     return (
         <>
-            <div
-                id="carouselExampleCaptions"
-                className="carousel slide"
-                data-bs-ride="carousel"
-            >
-                <div className="carousel-indicators">
-                    <button
-                        type="button"
-                        data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide-to="0"
-                        className="active"
-                        aria-current="true"
-                        aria-label="Slide 1"
-                    ></button>
-                </div>
-                <div className="carousel-inner">
-                    <div className="carousel-item active">
-                        <img
-                            layout="fill"
-                            src={image1}
-                            style={{ marginTop: "-10vh" }}
-                            className="d-block w-100"
-                            alt="..."
-                        />
-                        <div className="carousel-caption d-none d-md-block">
-                            <h5>23-25, September 2022</h5>
-                            <p>A beginning of a biggest tech fest of VIT.</p>
+            <div className="main-heading">
+                <div className="overlay">
+                    {/* <Particles options={options} init={customInit} className="parallax-des" /> */}
+
+                    <div className="text">
+                        <div className="patterns">
+                            <svg width="100%" height="100%">
+                                <text x="50%" y="50%" textAnchor="middle">technoVIT</text>
+                            </svg>
+                            <h2 className='text-center'>September 23 to September 25</h2>
+                            <p className='text-center'>Staring of the biggest tech fest of VIT Chennai</p>
                         </div>
                     </div>
                 </div>
-                <button
-                    className="carousel-control-prev"
-                    type="button"
-                    data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="prev"
-                >
-                    <span
-                        className="carousel-control-prev-icon"
-                        aria-hidden="true"
-                    ></span>
-                    <span className="visually-hidden">Previous</span>
-                </button>
-                <button
-                    className="carousel-control-next"
-                    type="button"
-                    data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="next"
-                >
-                    <span
-                        className="carousel-control-next-icon"
-                        aria-hidden="true"
-                    ></span>
-                    <span className="visually-hidden">Next</span>
-                </button>
+
             </div>
         </>
     )
 }
+
 export default Landing

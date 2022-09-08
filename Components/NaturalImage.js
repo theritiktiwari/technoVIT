@@ -3,7 +3,6 @@ import { useState } from "react";
 
 const NaturalImage = (props) => {
   const [ratio, setRatio] = useState(16 / 9); // default to 16:9
-  // const height = props.height;
   const width = props.width;
   return (
     <Image
