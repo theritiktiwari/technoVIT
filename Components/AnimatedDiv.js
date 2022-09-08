@@ -16,7 +16,7 @@ export const animations = {
   },
 };
 
-const Div = ({ children, animationStyle, ...rest }) => {
+const Div = ({ children, animationStyle = "", ...rest }) => {
   const animation = animationStyle ? animationStyle : animations.bottomToTop;
 
   return (
