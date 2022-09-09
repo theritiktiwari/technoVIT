@@ -19,7 +19,7 @@ const images = data.map(({ link, name }) => {
 const Gallery = () => {
   return (
     <Div className="container-fluid py-5" id="gallery">
-      <h2 className="text-center mb-3">Gallery</h2>
+      <h2 className="text-center mb-3 heading">Gallery</h2>
       <div className="container">
         <ImageGallery items={images} autoPlay />
       </div>

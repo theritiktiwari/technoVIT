@@ -11,7 +11,7 @@ const Schools = () => {
                     {schoolData && schoolData.map((item, index) => {
                         return <Link href={`/schools/${item.link}`} key={index}>
                             <a><div className="card main-school p-3 d-flex justify-content-center align-items-center my-1">
-                                <div className="user-img">
+                                <div className="user-img poster-image">
                                     <img src={item.image || userImage} className="card-img-top" alt={item.name} />
                                 </div>
                             </div></a>
