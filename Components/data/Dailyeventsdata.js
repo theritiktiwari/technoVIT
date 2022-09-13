@@ -1,28 +1,60 @@
 const Dailyevents = [
-    {
-        id: 1,
-        name: "Live Hacking Hands on Workshop",
-        image: "https://i.ibb.co/s3H88Vj/Live-Hacking-Hands-on-Workshop-MIC-TECHNOVIT.png",
-        venue: "AB1-203",
-        time: "10:00 AM - 12:00 PM",
-        link: "https://vitchennaievents.com/technovit/"
-    },
-    {
-        id: 2,
-        name: "Live Hacking Hands on Workshop",
-        image: "https://i.ibb.co/s3H88Vj/Live-Hacking-Hands-on-Workshop-MIC-TECHNOVIT.png",
-        venue: "AB1-203",
-        time: "10:00 AM - 12:00 PM",
-        link: "https://vitchennaievents.com/technovit/"
-    },
-    {
-        id: 3,
-        name: "Live Hacking Hands on Workshop",
-        image: "https://i.ibb.co/s3H88Vj/Live-Hacking-Hands-on-Workshop-MIC-TECHNOVIT.png",
-        venue: "AB1-203",
-        time: "10:00 AM - 12:00 PM",
-        link: "https://vitchennaievents.com/technovit/"
-    },
-]
+  {
+    id: 1,
+    name: "Let's Startup",
+    image: "https://i.imgur.com/tR9F7kD.jpg",
+    venue: "Online",
+    time: "12:00 PM - 03:00 PM",
+    link: "https://vitchennaievents.com/technovit/",
+  },
+  {
+    id: 2,
+    name: "Cyber Security Workshop",
+    image: "https://i.imgur.com/1s6lzai.jpg",
+    venue: "Online",
+    time: "11:40 AM - 01:30 PM",
+    link: "https://vitchennaievents.com/technovit/",
+  },
+  {
+    id: 3,
+    name: "Web-A-Thon",
+    image: "https://i.imgur.com/2zMDetk.jpg",
+    venue: "AB2 Smart Classroom",
+    time: "08:00 AM - 08:00 PM",
+    link: "https://vitchennaievents.com/technovit/",
+  },
+  {
+    id: 4,
+    name: "Cloth Donation",
+    image: "https://i.imgur.com/UOTukvP.png",
+    venue: "Clock Court, Hostel Blocks",
+    time: "12:00 AM - 11:59 PM",
+    link: "https://vitchennaievents.com/technovit/",
+  },
+  {
+    id: 5,
+    name: "Deep Learning Based Workshop",
+    image: "https://i.imgur.com/JVQf1Gy.jpg",
+    venue: "Online",
+    time: "09:00 AM - 05:00 PM",
+    link: "https://vitchennaievents.com/technovit/",
+  },
+  {
+    id: 6,
+    name: "Game Programming",
+    image: "https://i.imgur.com/PXZWsat.jpg",
+    venue: "AB1-308",
+    time: "09:00 AM - 05:00 PM",
+    link: "https://vitchennaievents.com/technovit/",
+  },
+  {
+    id: 7,
+    name: "Doodle Army",
+    image: "https://i.imgur.com/SkPIXGV.jpg",
+    venue: "Online",
+    time: "10:00 AM - 06:00 PM",
+    link: "https://vitchennaievents.com/technovit/",
+  },
+];
 
 export default Dailyevents;
