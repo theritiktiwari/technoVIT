@@ -13,7 +13,7 @@ import Div from "../Components/AnimatedDiv";
 export default function Home({ siteName, date, count }) {
   return (
     <>
-      <Landing />
+      <Landing/>
       <About siteName={siteName} />
       <Clock date={date} />
       <Dailyevents/>

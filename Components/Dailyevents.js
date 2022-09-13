@@ -6,7 +6,7 @@ const image = "https://i.ibb.co/HYj6Tgk/environmental-sustainability.jpg";
 const Dailyevents = () => {
   return (
     <div className="school">
-      <h1 className="text-center my-5 heading">Daily Events</h1>
+      <h1 className="text-center my-5 heading">Today's Events</h1>
       <div className="container d-flex flex-wrap justify-content-around">
         {data && data.map((item, index) => {
           return item.name ?

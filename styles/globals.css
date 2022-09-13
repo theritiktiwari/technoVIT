@@ -10,7 +10,10 @@ body {
   padding: 0;
   margin: 0;
   color: var(--primary-color);
-  background-color: var(--background-primary-color);
+  background: #11998e;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
   overflow-x: hidden;
 }
 
@@ -75,13 +78,13 @@ a {
 
 .main-heading .overlay {
   width: 100%;
-  height: 100%;
+  height: 150%;
   position: relative;
 }
 
 .main-heading .overlay .parallax-des {
   width: 100%;
-  height: 70vh;
+  height: 90vh;
   position: absolute;
 }
 
@@ -94,7 +97,7 @@ a {
 }
 
 .patterns {
-  height: 50vh;
+  height: 40vh;
   width: 100vw;
   position: relative;
 }
@@ -125,6 +128,10 @@ svg text {
     stroke-dashoffstet: -20%;
     fill: rgba(148, 222, 235, 0)
   }
+}
+.venue-section{
+  width: '70px' !important;
+  height: '60px' !important;
 }
 
 .about-section,
@@ -255,7 +262,7 @@ svg text {
 }
 
 .social {
-  background-color: var(--background-secondary-color);
+  background-color: #000;
   padding: 20px;
 }
 
@@ -284,7 +291,7 @@ svg text {
 }
 
 .social .left a:hover {
-  background-color: var(--secondary-color);
+  background-color: #000;
   color: var(--background-primary-color);
 }
 
@@ -296,8 +303,8 @@ svg text {
 }
 
 .copyright {
-  background-color: var(--secondary-color);
-  background-color: var(--background-secondary-color);
+  background-color: #000;
+  background-color: #000;
 }
 
 .school .card {

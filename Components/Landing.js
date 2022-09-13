@@ -215,10 +215,17 @@ const Landing = () => {
                             <svg width="100%" height="100%">
                                 <text x="50%" y="50%" textAnchor="middle">technoVIT'22</text>
                             </svg>
-                            <h2 className='text-center'>September 23 to September 25</h2>
-                            <p className='text-center'>Starting of the biggest tech fest of VIT Chennai</p>
+                            <h2 className='text-center'>23 - 25 September, 2022</h2>
+                            <p className='text-center'>Annual tech fest of VIT Chennai</p>
+                            <img src={"https://i.imgur.com/u7UNOzj.png"} width={450} height={250} style={{display: "block", marginLeft: "35%"}}/>
+                            <br></br>
+                            <br></br>
+                            <br></br>
                         </div>
+    
+                        
                     </div>
+                    
                 </div>
 
             </div>
