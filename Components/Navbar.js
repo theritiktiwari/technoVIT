@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 // const logo = "https://i.ibb.co/DGn24dM/VIT-W.png";
-const logo = "https://i.ibb.co/R7gWx23/Techno-VIT-Logo-Transparent.png";
+const logo = "https://i.imgur.com/u7UNOzj.png";
 
 const Navbar = ({ siteName }) => {
     useEffect(() => {
