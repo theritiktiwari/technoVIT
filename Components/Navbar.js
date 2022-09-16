@@ -21,7 +21,7 @@ const Navbar = ({ siteName }) => {
                 <div className="container-fluid">
                     <Link href="/">
                         <a className="navbar-brand">
-                            {logo ? <Image src={logo} height={60} width={180} alt={"technoVIT"} /> : siteName}
+                            {logo ? <Image src={logo} height={80} width={150} alt={"technoVIT"} /> : siteName}
                         </a>
                     </Link>
                     <button

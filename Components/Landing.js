@@ -217,10 +217,10 @@ const Landing = () => {
                             </svg>
                             <h2 className='text-center'>23 - 25 September, 2022</h2>
                             <p className='text-center'>Annual tech fest of VIT Chennai</p>
-                            <img src={"https://i.imgur.com/u7UNOzj.png"} width={450} height={250} style={{display: "block", marginLeft: "35%"}}/>
+                            {/* <img src={"https://i.imgur.com/u7UNOzj.png"} width={450} height={250} style={{display: "block", marginLeft: "35%"}}/>
                             <br></br>
                             <br></br>
-                            <br></br>
+                            <br></br> */}
                         </div>
     
                         
