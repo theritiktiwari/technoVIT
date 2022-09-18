@@ -54,8 +54,7 @@ const Schedule = () => {
                       </a>
                     </>
                   );
-                })} 
-
+                })}
             </div>
           </div>
           <div className="col-12 col-lg-6 rounded-2 image d-flex align-items-center justify-content-center">

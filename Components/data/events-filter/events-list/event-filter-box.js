@@ -23,7 +23,7 @@ function EventFilterBox(props) {
     const selectedDate = dateInputRef.current.value;
     const selectedDept = deptInputRef.current.value;
 
-    props.onSearch(selectedDate, selectedDept);
+    props.onSearch(selectedDate || props.date, selectedDept || props.dept);
   };
   return (
     <div className={classes.margin}>

@@ -2,7 +2,8 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 5px;
-  margin: 2rem 6.4rem;
+  width: 1200px;
+  margin: 2rem auto;
 }
 
 .title {
@@ -17,4 +18,22 @@
   width: 1.6rem;
   height: 1.6rem;
   margin-right: 1rem;
+}
+@media (max-width: 1200px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+    width: 90%;
+  }
+}
+@media (max-width: 958px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    width: 90%;
+  }
+}
+@media (max-width: 550px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+    width: 95%;
+  }
 }
