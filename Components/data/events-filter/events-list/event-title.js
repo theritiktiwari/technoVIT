@@ -17,7 +17,7 @@ function EventTitle(props) {
   return (
     <div>
       <p className={classes.title}>
-        Events on <span>{props.date}</span> by{" "}
+        Events on <span>{props.date}</span> September by{" "}
         <span>{dept[props.dept - 1]}</span>
       </p>
     </div>
