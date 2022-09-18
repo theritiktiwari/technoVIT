@@ -1,0 +1,272 @@
+[
+    {
+        "start":"2022-09-23T10:00:00.000Z",
+        "end":"2022-09-23T19:00:00.000Z",
+        "title":"Photo Booth",
+        "resource":1
+    },
+    {
+        "start":"2022-09-23T14:00:00.000Z",
+        "end":"2022-09-23T18:00:00.000Z",
+        "title":"LAN Gaming",
+        "resource":1
+    },
+    {
+        "start":"2022-09-23T10:00:00.000Z",
+        "end":"2022-09-23T17:00:00.000Z",
+        "title":"PALS City",
+        "resource":1
+    },
+    {
+        "start":"2022-09-23T12:00:00.000Z",
+        "end":"2022-09-23T17:00:00.000Z",
+        "title":"TCR Rover Display",
+        "resource":1
+    },
+    {
+        "start":"2022-09-23T16:00:00.000Z",
+        "end":"2022-09-23T19:00:00.000Z",
+        "title":"Chess Tournament",
+        "resource":1
+    },
+    {
+        "start":"2022-09-23T10:00:00.000Z",
+        "end":"2022-09-23T15:00:00.000Z",
+        "title":"Mini Militia",
+        "resource":1
+    },
+    {
+        "start":"2022-09-23T11:00:00.000Z",
+        "end":"2022-09-23T18:00:00.000Z",
+        "title":"FIFA",
+        "resource":1
+    },
+    {
+        "start":"2022-09-23T10:00:00.000Z",
+        "end":"2022-09-23T17:00:00.000Z",
+        "title":"Game Parlour",
+        "resource":2
+    },
+    {
+        "start":"2022-09-23T12:00:00.000Z",
+        "end":"2022-09-23T16:00:00.000Z",
+        "title":"ElectroRush",
+        "resource":2
+    },
+    {
+        "start":"2022-09-23T15:00:00.000Z",
+        "end":"2022-09-23T16:30:00.000Z",
+        "title":"Logic League",
+        "resource":2
+    },
+    {
+        "start":"2022-09-23T10:00:00.000Z",
+        "end":"2022-09-23T18:00:00.000Z",
+        "title":"Clash Royale",
+        "resource":2
+    },
+    {
+        "start":"2022-09-23T13:00:00.000Z",
+        "end":"2022-09-23T16:00:00.000Z",
+        "title":"Scholars Viveka",
+        "resource":2
+    },
+    {
+        "start":"2022-09-23T10:00:00.000Z",
+        "end":"2022-09-23T18:00:00.000Z",
+        "title":"Tech Juegos",
+        "resource":2
+    },
+    {
+        "start":"2022-09-23T10:00:00.000Z",
+        "end":"2022-09-23T18:00:00.000Z",
+        "title":"Forza Sprint",
+        "resource":3
+    },
+    {
+        "start":"2022-09-23T10:00:00.000Z",
+        "end":"2022-09-23T18:00:00.000Z",
+        "title":"Scavenger Hunt",
+        "resource":3
+    },
+    {
+        "start":"2022-09-23T10:00:00.000Z",
+        "end":"2022-09-23T18:00:00.000Z",
+        "title":"Cards - Truth and Dare",
+        "resource":3
+    },
+    {
+        "start":"2022-09-23T10:00:00.000Z",
+        "end":"2022-09-23T18:00:00.000Z",
+        "title":"Drone Race",
+        "resource":3
+    },
+    {
+        "start":"2022-09-23T10:00:00.000Z",
+        "end":"2022-09-23T18:00:00.000Z",
+        "title":"MCU, DCU, Anime, Chinese & Korean Dramas Quiz",
+        "resource":3
+    },
+    {
+        "start":"2022-09-23T10:00:00.000Z",
+        "end":"2022-09-23T17:00:00.000Z",
+        "title":"VR Cricket",
+        "resource":3
+    },
+    {
+        "start":"2022-09-23T10:00:00.000Z",
+        "end":"2022-09-23T18:00:00.000Z",
+        "title":"Tattoo",
+        "resource":3
+    },
+    {
+        "start":"2022-09-23T10:00:00.000Z",
+        "end":"2022-09-23T18:00:00.000Z",
+        "title":"Drone Parachuting",
+        "resource":3
+    },
+    {
+        "start":"2022-09-23T10:00:00.000Z",
+        "end":"2022-09-23T18:00:00.000Z",
+        "title":"Beat Saber",
+        "resource":3
+    },
+    {
+        "start":"2022-09-23T10:00:00.000Z",
+        "end":"2022-09-23T18:00:00.000Z",
+        "title":"NBA All Star Event",
+        "resource":3
+    },
+    {
+        "start":"2022-09-23T10:00:00.000Z",
+        "end":"2022-09-23T18:00:00.000Z",
+        "title":"Roasting, Scolding and Conversation Therapy",
+        "resource":3
+    },
+    {
+        "start":"2022-09-23T12:00:00.000Z",
+        "end":"2022-09-24T12:00:00.000Z",
+        "title":"Pic-O-Phactory",
+        "resource":4
+    },
+    {
+        "start":"2022-09-23T14:30:00.000Z",
+        "end":"2022-09-23T16:30:00.000Z",
+        "title":"Drapester",
+        "resource":4
+    },
+    {
+        "start":"2022-09-23T11:00:00.000Z",
+        "end":"2022-09-23T13:00:00.000Z",
+        "title":"Zero Waste Draping",
+        "resource":4
+    },
+    {
+        "start":"2022-09-23T11:00:00.000Z",
+        "end":"2022-09-23T13:00:00.000Z",
+        "title":"Fashion Illustration",
+        "resource":4
+    },
+    {
+        "start":"2022-09-23T11:00:00.000Z",
+        "end":"2022-09-23T13:30:00.000Z",
+        "title":"Fabric Embellishment",
+        "resource":4
+    },
+    {
+        "start":"2022-09-23T14:00:00.000Z",
+        "end":"2022-09-23T16:00:00.000Z",
+        "title":"Coding in the Dark",
+        "resource":5
+    },
+    {
+        "start":"2022-09-23T10:00:00.000Z",
+        "end":"2022-09-23T18:00:00.000Z",
+        "title":"Valorant",
+        "resource":5
+    },
+    {
+        "start":"2022-09-23T10:00:00.000Z",
+        "end":"2022-09-23T18:00:00.000Z",
+        "title":"COD Mobile",
+        "resource":5
+    },
+    {
+        "start":"2022-09-23T11:00:00.000Z",
+        "end":"2022-09-23T17:00:00.000Z",
+        "title":"Skribbl.io",
+        "resource":5
+    },
+    {
+        "start":"2022-09-23T10:00:00.000Z",
+        "end":"2022-09-23T14:00:00.000Z",
+        "title":"Hack Singh Win",
+        "resource":5
+    },
+    {
+        "start":"2022-09-23T10:00:00.000Z",
+        "end":"2022-09-23T17:00:00.000Z",
+        "title":"Shark Tank",
+        "resource":5
+    },
+    {
+        "start":"2022-09-23T10:00:00.000Z",
+        "end":"2022-09-23T17:00:00.000Z",
+        "title":"Gaming League",
+        "resource":5
+    },
+    {
+        "start":"2022-09-23T09:00:00.000Z",
+        "end":"2022-09-23T18:30:00.000Z",
+        "title":"Among Us Theme",
+        "resource":5
+    },
+    {
+        "start":"2022-09-23T10:00:00.000Z",
+        "end":"2022-09-23T18:00:00.000Z",
+        "title":"Aye Halo",
+        "resource":5
+    },
+    {
+        "start":"2022-09-23T10:00:00.000Z",
+        "end":"2022-09-23T18:00:00.000Z",
+        "title":"Business Pitch",
+        "resource":5
+    },
+    {
+        "start":"2022-09-23T10:00:00.000Z",
+        "end":"2022-09-23T18:00:00.000Z",
+        "title":"Inara Sale",
+        "resource":5
+    },
+    {
+        "start":"2022-09-23T10:00:00.000Z",
+        "end":"2022-09-23T18:00:00.000Z",
+        "title":"Designing Capabilities For Algorithms",
+        "resource":5
+    },
+    {
+        "start":"2022-09-23T10:00:00.000Z",
+        "end":"2022-09-23T18:00:00.000Z",
+        "title":"Arcade",
+        "resource":5
+    },
+    {
+        "start":"2022-09-23T10:00:00.000Z",
+        "end":"2022-09-23T18:00:00.000Z",
+        "title":"Arcade",
+        "resource":6
+    },
+    {
+        "start":"2022-09-23T10:00:00.000Z",
+        "end":"2022-09-23T18:00:00.000Z",
+        "title":"Arcade",
+        "resource":6
+    },
+    {
+        "start":"2022-09-23T10:00:00.000Z",
+        "end":"2022-09-23T18:00:00.000Z",
+        "title":"Arcade",
+        "resource":6
+    }
+]
