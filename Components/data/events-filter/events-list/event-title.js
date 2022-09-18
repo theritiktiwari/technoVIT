@@ -3,7 +3,7 @@ import classes from "./event-title.module.css";
 
 function EventTitle(props) {
   const dept = [
-    "Bandvit",
+    "BandVIT",
     "Connectivitieee",
     "Diseno",
     "Glitz",
@@ -11,8 +11,8 @@ function EventTitle(props) {
     "Srishti",
     "Taikuun",
     "Lilacs",
-    "Vitness",
-    "Vsplash",
+    "VITness",
+    "VSplash",
   ];
   return (
     <div>
