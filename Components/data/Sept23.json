@@ -252,21 +252,123 @@
         "resource":5
     },
     {
-        "start":"2022-09-23T10:00:00.000Z",
-        "end":"2022-09-23T18:00:00.000Z",
-        "title":"Arcade",
+        "start":"2022-09-23T11:00:00.000Z",
+        "end":"2022-09-23T15:00:00.000Z",
+        "title":"Arm Wrestling",
+        "resource":6
+    },
+    {
+        "start":"2022-09-23T16:00:00.000Z",
+        "end":"2022-09-23T19:00:00.000Z",
+        "title":"Musical Chairs",
         "resource":6
     },
     {
         "start":"2022-09-23T10:00:00.000Z",
         "end":"2022-09-23T18:00:00.000Z",
-        "title":"Arcade",
+        "title":"Short Film Competition",
         "resource":6
     },
     {
+        "start":"2022-09-23T11:00:00.000Z",
+        "end":"2022-09-23T13:00:00.000Z",
+        "title":"Wolf of Wall Street",
+        "resource":7
+    },
+    {
+        "start":"2022-09-23T14:00:00.000Z",
+        "end":"2022-09-23T16:00:00.000Z",
+        "title":"Biz Quiz",
+        "resource":7
+    },
+    {
         "start":"2022-09-23T10:00:00.000Z",
-        "end":"2022-09-23T18:00:00.000Z",
-        "title":"Arcade",
-        "resource":6
+        "end":"2022-09-23T11:00:00.000Z",
+        "title":"Treasure Hunt",
+        "resource":7
+    },
+    {
+        "start":"2022-09-23T10:00:00.000Z",
+        "end":"2022-09-23T12:00:00.000Z",
+        "title":"Pencil Drop",
+        "resource":7
+    },
+    {
+        "start":"2022-09-23T14:00:00.000Z",
+        "end":"2022-09-23T16:00:00.000Z",
+        "title":"The I's Have It",
+        "resource":7
+    },
+    {
+        "start":"2022-09-23T14:00:00.000Z",
+        "end":"2022-09-23T16:00:00.000Z",
+        "title":"Human Knot",
+        "resource":7
+    },
+    {
+        "start":"2022-09-23T11:00:00.000Z",
+        "end":"2022-09-23T13:00:00.000Z",
+        "title":"Cine Buff",
+        "resource":7
+    },
+    {
+        "start":"2022-09-23T14:00:00.000Z",
+        "end":"2022-09-23T16:00:00.000Z",
+        "title":"Balloon Dart",
+        "resource":8
+    }
+    {
+        "start":"2022-09-23T10:00:00.000Z",
+        "end":"2022-09-23T12:00:00.000Z",
+        "title":"Web Series Quiz",
+        "resource":8
+    }
+    {
+        "start":"2022-09-23T10:00:00.000Z",
+        "end":"2022-09-23T12:00:00.000Z",
+        "title":"Wrap it Up - 30 secs",
+        "resource":8
+    }
+    {
+        "start":"2022-09-23T14:00:00.000Z",
+        "end":"2022-09-23T16:00:00.000Z",
+        "title":"Tailbar",
+        "resource":8
+    }
+    {
+        "start":"2022-09-23T10:00:00.000Z",
+        "end":"2022-09-23T12:00:00.000Z",
+        "title":"Mini Lecture Series",
+        "resource":8
+    },
+    {
+        "start":"2022-09-23T10:00:00.000Z",
+        "end":"2022-09-23T17:00:00.000Z",
+        "title":"Blank Space",
+        "resource":9
+    },
+    {
+        "start":"2022-09-23T11:00:00.000Z",
+        "end":"2022-09-23T16:00:00.000Z",
+        "title":"Hostile Witness",
+        "resource":9
+    },
+    {
+        "start":"2022-09-23T10:00:00.000Z",
+        "end":"2022-09-23T13:00:00.000Z",
+        "title":"Jam",
+        "resource":9
+    },
+    {
+        "start":"2022-09-23T12:30:00.000Z",
+        "end":"2022-09-23T16:30:00.000Z",
+        "title":"Telly Glitch",
+        "resource":9
+    },
+    {
+        "start":"2022-09-23T10:00:00.000Z",
+        "end":"2022-09-23T17:00:00.000Z",
+        "title":"Mafia",
+        "resource":9
     }
 ]
