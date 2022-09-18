@@ -5,23 +5,25 @@ function Card(props) {
   const { dept } = props;
   let color = "#000";
   if (dept === 1) {
-    color = "#ffcc9c";
+    color = "#e67300";
   } else if (dept === 2) {
-    color = "#ffe599";
+    color = "#ffff00";
   } else if (dept === 3) {
-    color = "#e0dcdc";
+    color = "#4da6ff";
   } else if (dept === 4) {
-    color = "#e0dcdc";
+    color = "#ff4d88";
   } else if (dept === 5) {
-    color = "#dd7e6b";
+    color = "#e62e00";
   } else if (dept === 6) {
-    color = "#d9d9d9";
+    color = "#737373";
   } else if (dept === 7) {
-    color = "#e0dcdc";
-  } else if (dept === 7) {
-    color = "#e0dcdc";
+    color = "#006652";
+  } else if (dept === 8) {
+    color = "#990099";
   } else if (dept === 9) {
-    color = "#d9ead3";
+    color = "#ccff99";
+  } else if (dept === 10) {
+    color = "#29a329";
   }
   return (
     <div

@@ -6,16 +6,16 @@ function EventFilterBox(props) {
   const dateInputRef = useRef();
   const deptInputRef = useRef();
   const dept = [
-    "bandvit",
-    "connectivitieee",
-    "diseno",
-    "glitz",
-    "qubit",
-    "srishti",
-    "taikuun",
-    "lilacs",
-    "vitness",
-    "vsplash",
+    "bandVIT",
+    "Connectivitieee",
+    "Diseno",
+    "Glitz",
+    "Qubit",
+    "Srishti",
+    "Taikuun",
+    "Lilacs",
+    "VITness",
+    "VSplash",
   ];
 
   const submitHandler = (event) => {
@@ -23,7 +23,7 @@ function EventFilterBox(props) {
     const selectedDate = dateInputRef.current.value;
     const selectedDept = deptInputRef.current.value;
 
-    props.onSearch(selectedDate, selectedDept);
+    props.onSearch(selectedDate || props.date, selectedDept || props.dept);
   };
   return (
     <div className={classes.margin}>
@@ -36,9 +36,9 @@ function EventFilterBox(props) {
             <label htmlFor="year">Date</label>
             <select id="year" ref={dateInputRef}>
               <option value="0">All</option>
-              <option value="23">23</option>
-              <option value="24">24</option>
-              <option value="25">25</option>
+              <option value="23">September 23</option>
+              <option value="24">September 24</option>
+              <option value="25">September 25</option>
             </select>
           </div>
           <div className={classes.control}>

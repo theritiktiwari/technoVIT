@@ -7,7 +7,13 @@ import EventsList from "../../Components/data/events-filter/events-list/events-l
 
 function FilteredDeptPage() {
   const router = useRouter();
-  //   console.log(router.query.slug[0]);
+  console.log(router);
+  if (router.query.slug === undefined) {
+    return <p>Loading...</p>;
+  }
+  if (router.query.slug === undefined) {
+    return <p>Loading ....</p>;
+  }
   const date = +router.query.slug[0];
   const dept = +router.query.slug[1];
   const filteredEvents = getFilteredEvents(date, dept);

@@ -11,6 +11,10 @@ export function getAllEvents23() {
 export function getFilteredEvents(date, dept) {
   if (date === 0 && dept === 0) {
     return Sept23;
+  } else if (date === 23 && dept === 0) {
+    return Sept23;
+  } else if (date === 0) {
+    return Sept23.filter((event) => event.resource === dept);
   } else if (date === 23) {
     return Sept23.filter((event) => event.resource === dept);
   } else if (date === 24) {

@@ -2,17 +2,17 @@ const data = [
     {
         id: "1",
         name: "Day 1",
-        link: "https://drive.google.com/file/d/1B91md35Wc7DPC-mNjTuph6h0T2b4Y40A/preview?usp=sharing",
+        link: "../events/23/0",
     },
     {
         id: "2",
         name: "Day 2",
-        link: "https://drive.google.com/file/d/1CE_JX9MW0R-w1qnQ4UHY24RInid8xBdh/preview?usp=sharing"
+        link: "../events/24/0"
     },
     {
         id: "3",
         name: "Day 3",
-        link: "https://drive.google.com/file/d/1j6_NfbUflLiLEFIEKjBsOqAFBTE7aDcM/preview?usp=sharing"
+        link: "../events/25/0"
     }
 ]
 
