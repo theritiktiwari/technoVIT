@@ -38,7 +38,7 @@ const Schedule = () => {
               className="d-flex justify-content-around align-items-center flex-column text px-4 w-100"
               style={{ height: "100%" }}
             >
-              {/* {schedule &&
+              {schedule &&
                 schedule.map((item, index) => {
                   return (
                     <>
@@ -54,14 +54,8 @@ const Schedule = () => {
                       </a>
                     </>
                   );
-                })} */}
-              {/* ********* */}
+                })} 
 
-              <Link href="/events/1">Day 1</Link>
-              <Link href="/events/2">Day 2</Link>
-              <Link href="/events/3">Day 3</Link>
-
-              {/* ****** */}
             </div>
           </div>
           <div className="col-12 col-lg-6 rounded-2 image d-flex align-items-center justify-content-center">
