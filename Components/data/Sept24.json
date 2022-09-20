@@ -1,0 +1,242 @@
+[
+  {
+    "start": "2022-09-24T09:00:00.000Z",
+    "end": "2022-09-24T19:00:00.000Z",
+    "title": "Photo Booth",
+    "resource": 1
+  },
+  {
+    "start": "2022-09-24T12:00:00.000Z",
+    "end": "2022-09-24T17:00:00.000Z",
+    "title": "Photography Event",
+    "resource": 1
+  },
+  {
+    "start": "2022-09-24T11:00:00.000Z",
+    "end": "2022-09-24T16:00:00.000Z",
+    "title": "RC Race",
+    "resource": 1
+  },
+  {
+    "start": "2022-09-24T09:00:00.000Z",
+    "end": "2022-09-24T17:00:00.000Z",
+    "title": "PALS City",
+    "resource": 1
+  },
+  {
+    "start": "2022-09-24T09:00:00.000Z",
+    "end": "2022-09-24T12:00:00.000Z",
+    "title": "5-Second Summary",
+    "resource": 1
+  },
+  {
+    "start": "2022-09-24T11:00:00.000Z",
+    "end": "2022-09-24T16:00:00.000Z",
+    "title": "Whose Line is it Anyway?",
+    "resource": 1
+  },
+  {
+    "start": "2022-09-24T14:00:00.000Z",
+    "end": "2022-09-24T18:00:00.000Z",
+    "title": "Reelay",
+    "resource": 1
+  },
+  {
+    "start": "2022-09-24T09:00:00.000Z",
+    "end": "2022-09-24T12:00:00.000Z",
+    "title": "Web Series Quiz",
+    "resource": 1
+  },
+  {
+    "start": "2022-09-24T16:00:00.000Z",
+    "end": "2022-09-24T19:00:00.000Z",
+    "title": "Chess Tournament",
+    "resource": 1
+  },
+  {
+    "start": "2022-09-24T09:00:00.000Z",
+    "end": "2022-09-24T15:00:00.000Z",
+    "title": "Mini Militia",
+    "resource": 1
+  },
+  {
+    "start": "2022-09-24T11:00:00.000Z",
+    "end": "2022-09-24T18:00:00.000Z",
+    "title": "FIFA",
+    "resource": 1
+  },
+  {
+    "start": "2022-09-24T11:00:00.000Z",
+    "end": "2022-09-24T16:00:00.000Z",
+    "title": "Pitch Perfect",
+    "resource": 1
+  },
+  {
+    "start": "2022-09-24T10:00:00.000Z",
+    "end": "2022-09-24T17:00:00.000Z",
+    "title": "Game Parlour",
+    "resource": 2
+  },
+  {
+    "start": "2022-09-24T09:00:00.000Z",
+    "end": "2022-09-24T16:00:00.000Z",
+    "title": "NFS Aqua",
+    "resource": 2
+  },
+  {
+    "start": "2022-09-24T10:00:00.000Z",
+    "end": "2022-09-24T17:00:00.000Z",
+    "title": "Tekken Tournament",
+    "resource": 2
+  },
+  {
+    "start": "2022-09-24T14:00:00.000Z",
+    "end": "2022-09-24T18:00:00.000Z",
+    "title": "Tinker Trading",
+    "resource": 2
+  },
+  {
+    "start": "2022-09-24T10:00:00.000Z",
+    "end": "2022-09-24T14:00:00.000Z",
+    "title": "Electrocharades",
+    "resource": 2
+  },
+  {
+    "start": "2022-09-24T08:00:00.000Z",
+    "end": "2022-09-24T18:00:00.000Z",
+    "title": "FIFA 22 Tour",
+    "resource": 2
+  },
+  {
+    "start": "2022-09-24T08:00:00.000Z",
+    "end": "2022-09-24T18:00:00.000Z",
+    "title": "Tech Juegos",
+    "resource": 2
+  },
+  {
+    "start": "2022-09-24T09:00:00.000Z",
+    "end": "2022-09-24T12:30:00.000Z",
+    "title": "Electrosmith",
+    "resource": 2
+  },
+  {
+    "start": "2022-09-24T12:00:00.000Z",
+    "end": "2022-09-24T12:00:00.000Z",
+    "title": "Pic-o-Phactory",
+    "resource": 3
+  },
+  {
+    "start": "2022-09-24T09:00:00.000Z",
+    "end": "2022-09-24T11:30:00.000Z",
+    "title": "Poster Design",
+    "resource": 3
+  },
+  {
+    "start": "2022-09-24T15:00:00.000Z",
+    "end": "2022-09-24T18:00:00.000Z",
+    "title": "Design Wrap",
+    "resource": 3
+  },
+  {
+    "start": "2022-09-24T14:00:00.000Z",
+    "end": "2022-09-24T16:30:00.000Z",
+    "title": "Open Mike",
+    "resource": 3
+  },
+  {
+    "start": "2022-09-24T09:00:00.000Z",
+    "end": "2022-09-24T12:30:00.000Z",
+    "title": "Treasure Hunt",
+    "resource": 3
+  },
+  {
+    "start": "2022-09-24T14:00:00.000Z",
+    "end": "2022-09-24T16:00:00.000Z",
+    "title": "Face Painting",
+    "resource": 3
+  },
+  {
+    "start": "2022-09-24T10:00:00.000Z",
+    "end": "2022-09-24T13:00:00.000Z",
+    "title": "Fashion Police",
+    "resource": 3
+  },
+  {
+    "start": "2022-09-24T09:00:00.000Z",
+    "end": "2022-09-24T12:30:00.000Z",
+    "title": "Styling and Makeover",
+    "resource": 3
+  },
+  {
+    "start": "2022-09-24T14:00:00.000Z",
+    "end": "2022-09-24T16:00:00.000Z",
+    "title": "Decode-Encode-Recode",
+    "resource": 4
+  }, 
+  {
+    "start": "2022-09-24T17:00:00.000Z",
+    "end": "2022-09-24T18:00:00.000Z",
+    "title": "Think Big",
+    "resource": 4
+  },
+  {
+    "start": "2022-09-24T11:00:00.000Z",
+    "end": "2022-09-24T13:00:00.000Z",
+    "title": "Theme Photography",
+    "resource": 4
+  },
+  {
+    "start": "2022-09-24T09:00:00.000Z",
+    "end": "2022-09-24T18:00:00.000Z",
+    "title": "Valorant",
+    "resource": 4
+  },
+  {
+    "start": "2022-09-24T13:00:00.000Z",
+    "end": "2022-09-24T18:00:00.000Z",
+    "title": "Fall Guys",
+    "resource": 4
+  },
+  {
+    "start": "2022-09-24T09:00:00.000Z",
+    "end": "2022-09-24T10:00:00.000Z",
+    "title": "Capture the Flag",
+    "resource": 4
+  },
+  {
+    "start": "2022-09-24T10:00:00.000Z",
+    "end": "2022-09-24T14:00:00.000Z",
+    "title": "Coding Relay",
+    "resource": 4
+  },
+  {
+    "start": "2022-09-24T10:00:00.000Z",
+    "end": "2022-09-24T17:00:00.000Z",
+    "title": "Gaming League",
+    "resource": 4
+  },
+  {
+    "start": "2022-09-24T16:30:00.000Z",
+    "end": "2022-09-24T18:00:00.000Z",
+    "title": "Aye Halo",
+    "resource": 4
+  },
+  {
+    "start": "2022-09-24T08:00:00.000Z",
+    "end": "2022-09-24T18:00:00.000Z",
+    "title": "Inara Sale",
+    "resource": 4
+  },
+  {
+    "start": "2022-09-24T09:00:00.000Z",
+    "end": "2022-09-24T17:00:00.000Z",
+    "title": "Algorithms(Decal)",
+    "resource": 4
+  },
+  {
+    "start": "2022-09-24T10:00:00.000Z",
+    "end": "2022-09-24T17:00:00.000Z",
+    "title": "IPL Battle",
+    "resource": 4
+  }
+]
