@@ -120,6 +120,90 @@
     "resource": 2
   },
   {
+    "start": "2022-09-24T08:00:00.000Z",
+    "end": "2022-09-24T18:00:00.000Z",
+    "title": "Forza Sprint",
+    "resource": 3
+  },
+  {
+    "start": "2022-09-24T08:00:00.000Z",
+    "end": "2022-09-24T18:00:00.000Z",
+    "title": "MCU, DCU, Anime, Chinese & Korean Dramas Quiz",
+    "resource": 3
+  },
+  {
+    "start": "2022-09-24T08:00:00.000Z",
+    "end": "2022-09-24T17:30:00.000Z",
+    "title": "VR Cricket",
+    "resource": 3
+  },
+  {
+    "start": "2022-09-24T08:00:00.000Z",
+    "end": "2022-09-24T18:00:00.000Z",
+    "title": "Tattoo",
+    "resource": 3
+  },
+  {
+    "start": "2022-09-24T08:00:00.000Z",
+    "end": "2022-09-24T18:00:00.000Z",
+    "title": "Drone Parachuting",
+    "resource": 3
+  },
+  {
+    "start": "2022-09-24T08:00:00.000Z",
+    "end": "2022-09-24T18:00:00.000Z",
+    "title": "Beat Saber",
+    "resource": 3
+  },
+  {
+    "start": "2022-09-24T08:00:00.000Z",
+    "end": "2022-09-24T18:00:00.000Z",
+    "title": "NBA All Star Event",
+    "resource": 3
+  },
+  {
+    "start": "2022-09-24T08:00:00.000Z",
+    "end": "2022-09-24T18:00:00.000Z",
+    "title": "Roasting, Scolding, and Conversation Therapy",
+    "resource": 3
+  },
+  {
+    "start": "2022-09-24T08:00:00.000Z",
+    "end": "2022-09-24T18:00:00.000Z",
+    "title": "IPL Auction",
+    "resource": 3
+  },
+  {
+    "start": "2022-09-24T10:00:00.000Z",
+    "end": "2022-09-24T13:00:00.000Z",
+    "title": "Tug of War",
+    "resource": 3
+  },
+  {
+    "start": "2022-09-24T08:00:00.000Z",
+    "end": "2022-09-24T18:00:00.000Z",
+    "title": "Shipwreck",
+    "resource": 3
+  },
+  {
+    "start": "2022-09-24T08:00:00.000Z",
+    "end": "2022-09-24T18:00:00.000Z",
+    "title": "Robo Racing",
+    "resource": 3
+  },
+  {
+    "start": "2022-09-24T08:00:00.000Z",
+    "end": "2022-09-24T17:00:00.000Z",
+    "title": "Laser Tag",
+    "resource": 3
+  },
+  {
+    "start": "2022-09-24T08:00:00.000Z",
+    "end": "2022-09-24T18:00:00.000Z",
+    "title": "Grab the CAD",
+    "resource": 3
+  },
+  {
     "start": "2022-09-24T12:00:00.000Z",
     "end": "2022-09-24T12:00:00.000Z",
     "title": "Pic-o-Phactory",
@@ -260,49 +344,217 @@
   {
     "start": "2022-09-24T09:00:00.000Z",
     "end": "2022-09-24T11:00:00.000Z",
-    "title": "Three Legged Race",
+    "title": "Best Manager",
     "resource": 7
   },
   {
     "start": "2022-09-24T09:00:00.000Z",
     "end": "2022-09-24T11:00:00.000Z",
-    "title": "Three Legged Race",
+    "title": "AD Mad",
     "resource": 7
   },
   {
     "start": "2022-09-24T09:00:00.000Z",
     "end": "2022-09-24T11:00:00.000Z",
-    "title": "Three Legged Race",
+    "title": "Short Film Making",
     "resource": 7
   },
   {
     "start": "2022-09-24T09:00:00.000Z",
     "end": "2022-09-24T11:00:00.000Z",
-    "title": "Three Legged Race",
+    "title": "Case A Thon",
     "resource": 7
   },
   {
     "start": "2022-09-24T09:00:00.000Z",
     "end": "2022-09-24T11:00:00.000Z",
-    "title": "Three Legged Race",
+    "title": "ShipWreck",
     "resource": 7
   },
   {
     "start": "2022-09-24T09:00:00.000Z",
     "end": "2022-09-24T11:00:00.000Z",
-    "title": "Three Legged Race",
+    "title": "Business Jam",
     "resource": 7
   },
   {
     "start": "2022-09-24T09:00:00.000Z",
     "end": "2022-09-24T11:00:00.000Z",
-    "title": "Three Legged Race",
+    "title": "IPL Auction",
     "resource": 7
   },
   {
     "start": "2022-09-24T09:00:00.000Z",
     "end": "2022-09-24T11:00:00.000Z",
-    "title": "Three Legged Race",
+    "title": "From the Junk",
     "resource": 7
+  },
+  {
+    "start": "2022-09-24T10:00:00.000Z",
+    "end": "2022-09-24T12:00:00.000Z",
+    "title": "Channel Surfing",
+    "resource": 8
+  },
+  {
+    "start": "2022-09-24T14:00:00.000Z",
+    "end": "2022-09-24T16:00:00.000Z",
+    "title": "Mehndi",
+    "resource": 8
+  },
+  {
+    "start": "2022-09-24T14:00:00.000Z",
+    "end": "2022-09-24T16:00:00.000Z",
+    "title": "Boomer Aunties",
+    "resource": 8
+  },
+  {
+    "start": "2022-09-24T10:00:00.000Z",
+    "end": "2022-09-24T12:00:00.000Z",
+    "title": "Face Painting",
+    "resource": 8
+  },
+  {
+    "start": "2022-09-24T10:00:00.000Z",
+    "end": "2022-09-24T12:00:00.000Z",
+    "title": "Workshop",
+    "resource": 9
+  },
+  {
+    "start": "2022-09-24T10:00:00.000Z",
+    "end": "2022-09-24T12:00:00.000Z",
+    "title": "Spin It Win It",
+    "resource": 9
+  },
+  {
+    "start": "2022-09-24T10:00:00.000Z",
+    "end": "2022-09-24T12:00:00.000Z",
+    "title": "Trivia Crack",
+    "resource": 9
+  },
+  {
+    "start": "2022-09-24T10:00:00.000Z",
+    "end": "2022-09-24T12:00:00.000Z",
+    "title": "Poster",
+    "resource": 9
+  },
+  {
+    "start": "2022-09-24T10:00:00.000Z",
+    "end": "2022-09-24T12:00:00.000Z",
+    "title": "Quiz",
+    "resource": 9
+  },
+  {
+    "start": "2022-09-24T10:00:00.000Z",
+    "end": "2022-09-24T12:00:00.000Z",
+    "title": "ShipWreck",
+    "resource": 9
+  },
+  {
+    "start": "2022-09-24T10:00:00.000Z",
+    "end": "2022-09-24T12:00:00.000Z",
+    "title": "Legal Debate",
+    "resource": 9
+  },
+  {
+    "start": "2022-09-24T17:30:00.000Z",
+    "end": "2022-09-24T19:00:00.000Z",
+    "title": "Funzone",
+    "resource": 10
+  },
+  {
+    "start": "2022-09-24T09:00:00.000Z",
+    "end": "2022-09-24T12:00:00.000Z",
+    "title": "Ideathon",
+    "resource": 10
+  },
+  {
+    "start": "2022-09-24T08:00:00.000Z",
+    "end": "2022-09-24T20:00:00.000Z",
+    "title": "FIFA 2022",
+    "resource": 10
+  },
+  {
+    "start": "2022-09-24T08:00:00.000Z",
+    "end": "2022-09-24T20:00:00.000Z",
+    "title": "Valogen-Z",
+    "resource": 10
+  },
+  {
+    "start": "2022-09-24T08:00:00.000Z",
+    "end": "2022-09-24T20:00:00.000Z",
+    "title": "COD Mobile Championships",
+    "resource": 10
+  },
+  {
+    "start": "2022-09-24T08:00:00.000Z",
+    "end": "2022-09-24T19:00:00.000Z",
+    "title": "Stumble Rumble",
+    "resource": 10
+  },
+  {
+    "start": "2022-09-24T09:00:00.000Z",
+    "end": "2022-09-24T18:00:00.000Z",
+    "title": "FunFit",
+    "resource": 10
+  },
+  {
+    "start": "2022-09-24T13:00:00.000Z",
+    "end": "2022-09-24T15:00:00.000Z",
+    "title": "Emote in Silence",
+    "resource": 10
+  },
+  {
+    "start": "2022-09-24T11:00:00.000Z",
+    "end": "2022-09-24T13:00:00.000Z",
+    "title": "Beg-Borrows-Steal",
+    "resource": 10
+  },
+  {
+    "start": "2022-09-24T11:00:00.000Z",
+    "end": "2022-09-24T12:00:00.000Z",
+    "title": "Mystery Trails of VIT",
+    "resource": 10
+  },
+  {
+    "start": "2022-09-24T11:00:00.000Z",
+    "end": "2022-09-24T16:00:00.000Z",
+    "title": "Eley Nee Oru Artist Nu Nirubichita Leyy",
+    "resource": 10
+  },
+  {
+    "start": "2022-09-24T14:00:00.000Z",
+    "end": "2022-09-24T16:00:00.000Z",
+    "title": "Lifetime Settlement",
+    "resource": 10
+  },
+  {
+    "start": "2022-09-24T15:00:00.000Z",
+    "end": "2022-09-24T18:00:00.000Z",
+    "title": "Light-Off-Camera",
+    "resource": 10
+  },
+  {
+    "start": "2022-09-24T15:30:00.000Z",
+    "end": "2022-09-24T17:30:00.000Z",
+    "title": "Mathematics Quiz & Puzzle",
+    "resource": 10
+  },
+  {
+    "start": "2022-09-24T12:00:00.000Z",
+    "end": "2022-09-24T18:00:00.000Z",
+    "title": "Hunt the Treasure",
+    "resource": 10
+  },
+  {
+    "start": "2022-09-24T09:00:00.000Z",
+    "end": "2022-09-24T19:00:00.000Z",
+    "title": "The Clash of Knights (Chess)",
+    "resource": 10
+  },
+  {
+    "start": "2022-09-24T10:00:00.000Z",
+    "end": "2022-09-24T11:00:00.000Z",
+    "title": "Debug Me",
+    "resource": 10
   }
 ]
