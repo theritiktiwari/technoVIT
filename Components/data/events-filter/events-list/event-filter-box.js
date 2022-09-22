@@ -42,7 +42,7 @@ function EventFilterBox(props) {
             </select>
           </div>
           <div className={classes.control}>
-            <label htmlFor="month">Department</label>
+            <label htmlFor="month">School Fest</label>
             <select id="month" ref={deptInputRef}>
               <option value="0">All</option>
               {dept.map((deptName, index) => (

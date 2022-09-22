@@ -128,7 +128,7 @@
     {
         "start": "2022-09-25T10:00:00.000Z",
         "end": "2022-09-25T13:00:00.000Z",
-        "title": "Photosho[ Faceoff",
+        "title": "Photoshop Faceoff",
         "resource": 5
     },
     {
@@ -165,13 +165,109 @@
         "start": "2022-09-25T10:00:00.000Z",
         "end": "2022-09-25T13:00:00.000Z",
         "title": "Carnival",
-        "resource": 4
+        "resource": 5
     },
     {
         "start": "2022-09-25T10:00:00.000Z",
         "end": "2022-09-25T13:00:00.000Z",
-        "title": "Selfie Contest",
-        "resource": 4
+        "title": "Carnival",
+        "resource": 5
+    },
+    {
+        "start": "2022-09-25T10:00:00.000Z",
+        "end": "2022-09-25T13:00:00.000Z",
+        "title": "Sack Race",
+        "resource": 6
+    },
+    {
+        "start": "2022-09-25T10:00:00.000Z",
+        "end": "2022-09-25T13:00:00.000Z",
+        "title": "Best Manager",
+        "resource": 7
+    },
+    {
+        "start": "2022-09-25T10:00:00.000Z",
+        "end": "2022-09-25T13:00:00.000Z",
+        "title": "Biz Plan",
+        "resource": 7
+    },
+    {
+        "start": "2022-09-25T10:00:00.000Z",
+        "end": "2022-09-25T13:00:00.000Z",
+        "title": "Two Truth And a Lie",
+        "resource": 7
+    },
+    {
+        "start": "2022-09-25T10:00:00.000Z",
+        "end": "2022-09-25T13:00:00.000Z",
+        "title": "Debate",
+        "resource": 7
+    },
+    {
+        "start": "2022-09-25T10:00:00.000Z",
+        "end": "2022-09-25T13:00:00.000Z",
+        "title": "Calculator",
+        "resource": 7
+    },
+    {
+        "start": "2022-09-25T10:00:00.000Z",
+        "end": "2022-09-25T13:00:00.000Z",
+        "title": "Start from 50",
+        "resource": 7
+    },
+    {
+        "start": "2022-09-25T10:00:00.000Z",
+        "end": "2022-09-25T13:00:00.000Z",
+        "title": "Insta Booth",
+        "resource": 8
+    },
+    {
+        "start": "2022-09-25T10:00:00.000Z",
+        "end": "2022-09-25T13:00:00.000Z",
+        "title": "ADZAP",
+        "resource": 8
+    },
+    {
+        "start": "2022-09-25T10:00:00.000Z",
+        "end": "2022-09-25T13:00:00.000Z",
+        "title": "Conference",
+        "resource": 9
+    },
+    {
+        "start": "2022-09-25T10:00:00.000Z",
+        "end": "2022-09-25T13:00:00.000Z",
+        "title": "Spin It Win It",
+        "resource": 9
+    },
+    {
+        "start": "2022-09-25T10:00:00.000Z",
+        "end": "2022-09-25T13:00:00.000Z",
+        "title": "War of Wordsmiths",
+        "resource": 10
+    },
+    {
+        "start": "2022-09-25T10:00:00.000Z",
+        "end": "2022-09-25T13:00:00.000Z",
+        "title": "Valogen-Z",
+        "resource": 10
+    },
+    {
+        "start": "2022-09-25T10:00:00.000Z",
+        "end": "2022-09-25T13:00:00.000Z",
+        "title": "Oru Kadha Solta, Sir ?",
+        "resource": 10
+    },
+    {
+        "start": "2022-09-25T10:00:00.000Z",
+        "end": "2022-09-25T13:00:00.000Z",
+        "title": "Enigma - Mathematics can be fun",
+        "resource": 10
+    },
+    {
+        "start": "2022-09-25T10:00:00.000Z",
+        "end": "2022-09-25T13:00:00.000Z",
+        "title": "Breaking the Bounds: Present and Future of Waste Management",
+        "resource": 10
     }
 ]
   
