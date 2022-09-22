@@ -1,12 +1,12 @@
 import { useRouter } from "next/router";
 import React, { Fragment } from "react";
 import Day1 from "../../Components/data/Sept23.json";
-import { getAllEvents23 } from "../../Components/data/events-filter/conditions";
+import { getAllEvents } from "../../Components/data/events-filter/conditions";
 import EventsList from "../../Components/data/events-filter/events-list/events-list";
 import EventFilterBox from "../../Components/data/events-filter/events-list/event-filter-box";
 
 function AllEvents(props) {
-  const allEvents = getAllEvents23();
+  const allEvents = getAllEvents();
   const router = useRouter();
 
   const findEventsHandler = (date, dept) => {

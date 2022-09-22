@@ -112,6 +112,66 @@
         "end": "2022-09-25T17:00:00.000Z",
         "title": "Laser Tag",
         "resource": 3
+    },
+    {
+        "start": "2022-09-25T10:00:00.000Z",
+        "end": "2022-09-25T13:00:00.000Z",
+        "title": "Selfie Contest",
+        "resource": 4
+    },
+    {
+        "start": "2022-09-25T10:00:00.000Z",
+        "end": "2022-09-25T13:00:00.000Z",
+        "title": "Talent in a Minute",
+        "resource": 5
+    },
+    {
+        "start": "2022-09-25T10:00:00.000Z",
+        "end": "2022-09-25T13:00:00.000Z",
+        "title": "Photosho[ Faceoff",
+        "resource": 5
+    },
+    {
+        "start": "2022-09-25T10:00:00.000Z",
+        "end": "2022-09-25T13:00:00.000Z",
+        "title": "Tug of War",
+        "resource": 5
+    },
+    {
+        "start": "2022-09-25T10:00:00.000Z",
+        "end": "2022-09-25T13:00:00.000Z",
+        "title": "Musical Chair",
+        "resource": 5
+    },
+    {
+        "start": "2022-09-25T10:00:00.000Z",
+        "end": "2022-09-25T13:00:00.000Z",
+        "title": "Bottle Flip",
+        "resource": 5
+    },
+    {
+        "start": "2022-09-25T10:00:00.000Z",
+        "end": "2022-09-25T13:00:00.000Z",
+        "title": "Capture the Flag",
+        "resource": 5
+    },
+    {
+        "start": "2022-09-25T10:00:00.000Z",
+        "end": "2022-09-25T13:00:00.000Z",
+        "title": "Algorithms (Decal)",
+        "resource": 5
+    },
+    {
+        "start": "2022-09-25T10:00:00.000Z",
+        "end": "2022-09-25T13:00:00.000Z",
+        "title": "Carnival",
+        "resource": 4
+    },
+    {
+        "start": "2022-09-25T10:00:00.000Z",
+        "end": "2022-09-25T13:00:00.000Z",
+        "title": "Selfie Contest",
+        "resource": 4
     }
 ]
   

@@ -2,7 +2,7 @@ import { useRouter } from "next/router";
 import React, { Fragment } from "react";
 import Day1 from "../../Components/data/Sept23.json";
 import {
-  getAllEvents23,
+  getAllEvents,
   getFilteredEvents,
 } from "../../Components/data/events-filter/conditions";
 import EventsList from "../../Components/data/events-filter/events-list/events-list";
