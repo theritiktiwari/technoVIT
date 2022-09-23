@@ -67,7 +67,7 @@ const data = [
   },
   {
     id: "12",
-    name: "T",
+    name: "Texas Review",
     image: "https://i.imgur.com/BCObqQA.png",
     designation: "Other Sponsor",
   },
@@ -226,6 +226,30 @@ const data = [
     name: "Evergreen Foodland",
     image: "https://i.imgur.com/PIquhbD.png",
     designation: "Other Sponsor",
-  }
+  },
+  {
+    id: "38",
+    name: "Dhabai Building Works",
+    image: "https://i.imgur.com/TseY0uN.png",
+    designation: "Other Sponsor",
+  },
+  {
+    id: "39",
+    name: "Multi-Tech Steel Workshop",
+    image: "https://i.imgur.com/SRiuSTX.png",
+    designation: "Other Sponsor",
+  },
+  {
+    id: "40",
+    name: "Florida Technical Services",
+    image: "https://i.imgur.com/AkVE56F.png",
+    designation: "Other Sponsor",
+  },
+  {
+    id: "41",
+    name: "VM Motors",
+    image: "https://i.imgur.com/2jF220N.png",
+    designation: "Other Sponsor",
+  },
 ];
 export default data;
