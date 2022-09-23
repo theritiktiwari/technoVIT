@@ -54,6 +54,12 @@ const data = [
     designation: "Silver Sponsor",
   },
   {
+    id: "9",
+    name: "Magoosh",
+    image: "https://i.imgur.com/NJYqlvI.png",
+    designation: "Silver Sponsor",
+  },
+  {
     id: "10",
     name: "Insight Hyrdraulics",
     image: "https://i.imgur.com/RDs8ozd.jpg",
@@ -251,5 +257,23 @@ const data = [
     image: "https://i.imgur.com/2jF220N.png",
     designation: "Other Sponsor",
   },
+  {
+    id: "42",
+    name: "VDigital Ocean",
+    image: "https://i.imgur.com/RL5c1nJ.png",
+    designation: "Other Sponsor",
+  },
+  {
+    id: "43",
+    name: "TE",
+    image: "https://i.imgur.com/y1wdJZM.jpgg",
+    designation: "Other Sponsor",
+  },
+  {
+    id: "44",
+    name: "IDFC First Bank",
+    image: "https://i.imgur.com/1JHA5Od.jpg",
+    designation: "Other Sponsor",
+  }
 ];
 export default data;
