@@ -93,7 +93,12 @@ const Navbar = ({ siteName }) => {
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link me-2" target={"_blank"} rel="noreferrer" href="https://drive.google.com/file/d/1PBPpzBG5ICDf-8enbA9yn0I-ekCvbX5P/preview">Sponsors</a>
+                                <Link href="/#sponsors">
+                                    <a className="nav-link">Sponsors</a>
+                                </Link>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link me-2" target={"_blank"} rel="noreferrer" href="https://drive.google.com/file/d/1PBPpzBG5ICDf-8enbA9yn0I-ekCvbX5P/preview">Brochure</a>
                             </li>
                             <li className="nav-item">
                                 <Link href="https://vitchennaievents.com/technovit/">

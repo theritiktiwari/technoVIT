@@ -181,8 +181,8 @@ const data = [
   },
   {
     id: "31",
-    name: "RS Enterprises",
-    image: "https://i.imgur.com/ECXeOQL.jpg",
+    name: "R S Enterprises",
+    image: "https://i.imgur.com/QD8Bo3e.png",
     designation: "Other Sponsor",
   },
   {
