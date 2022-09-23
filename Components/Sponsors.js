@@ -6,7 +6,8 @@ const userImage = "https://i.ibb.co/yWZR9j0/Avatar.png";
 const Sponsors = () => {
     return (
         <>
-            <section className='coordinators my-5'>
+            <section className='coordinators my-5' id="sponsors">
+                <a name="sponsors"></a>
                 <h1 className="text-center my-5 heading">Sponsors</h1>
                 <div className="d-flex flex-wrap justify-content-around align-items-center">
                     {sponsors && sponsors.map((item, index) => {
