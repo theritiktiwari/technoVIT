@@ -53,5 +53,59 @@ const data = [
     image: "https://i.imgur.com/dkDOBbl.png",
     designation: "Silver Sponsor",
   },
+  {
+    id: "10",
+    name: "Insight Hyrdraulics",
+    image: "https://i.imgur.com/RDs8ozd.jpg",
+    designation: "Other Sponsor",
+  },
+  {
+    id: "11",
+    name: "Rapido - Bike Taxi",
+    image: "https://i.imgur.com/vlSmET3.png",
+    designation: "Other Sponsor",
+  },
+  {
+    id: "12",
+    name: "T",
+    image: "https://i.imgur.com/BCObqQA.png",
+    designation: "Other Sponsor",
+  },
+  {
+    id: "13",
+    name: "Cricket Millionaire",
+    image: "https://i.imgur.com/GHqlkwb.jpg",
+    designation: "Other Sponsor",
+  },
+  {
+    id: "14",
+    name: "Documint.ai",
+    image: "https://i.imgur.com/aqI9UD5.png",
+    designation: "Other Sponsor",
+  },
+  {
+    id: "15",
+    name: "Chota Beta",
+    image: "https://i.imgur.com/BfCGafo.png",
+    designation: "Other Sponsor",
+  },
+  {
+    id: "16",
+    name: "Nokia",
+    image: "https://i.imgur.com/1T7SJru.png",
+    designation: "Other Sponsor",
+  },
+  {
+    id: "16",
+    name: "Jai Raj",
+    image: "https://i.imgur.com/iuwpl9q.jpg",
+    designation: "Other Sponsor",
+  },
+  {
+    id: "17",
+    name: "Twin Birds",
+    image: "https://i.imgur.com/ByKa1Yj.jpg",
+    designation: "Other Sponsor",
+  },
 ];
 export default data;
