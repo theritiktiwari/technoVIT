@@ -107,5 +107,89 @@ const data = [
     image: "https://i.imgur.com/ByKa1Yj.jpg",
     designation: "Other Sponsor",
   },
+  {
+    id: "18",
+    name: "Finlatics",
+    image: "https://i.imgur.com/sEGqqSF.png",
+    designation: "Other Sponsor",
+  },
+  {
+    id: "19",
+    name: "Sandbox",
+    image: "https://i.imgur.com/C2m9kBy.png",
+    designation: "Other Sponsor",
+  },
+  {
+    id: "20",
+    name: "Techno Process Engineering",
+    image: "https://i.imgur.com/nvCryOj.png",
+    designation: "Other Sponsor",
+  },
+  {
+    id: "21",
+    name: "Airth",
+    image: "https://i.imgur.com/IkvLhtZ.jpg",
+    designation: "Other Sponsor",
+  },
+  {
+    id: "22",
+    name: "Solidworks",
+    image: "https://i.imgur.com/4S9jmV1.png",
+    designation: "Other Sponsor",
+  },
+  {
+    id: "23",
+    name: "Advanced Composites",
+    image: "https://i.imgur.com/j3WdKLN.jpg",
+    designation: "Other Sponsor",
+  },
+  {
+    id: "24",
+    name: "Chennai Radha",
+    image: "https://i.imgur.com/FioNUPz.jpg",
+    designation: "Other Sponsor",
+  },
+  {
+    id: "25",
+    name: "OpenWeaver",
+    image: "https://i.imgur.com/VuIuZ6X.png",
+    designation: "Other Sponsor",
+  },
+  {
+    id: "26",
+    name: "Rapas",
+    image: "https://i.imgur.com/ROF61hQ.jpg",
+    designation: "Other Sponsor",
+  },
+  {
+    id: "27",
+    name: "Elementz",
+    image: "https://i.imgur.com/LHS6YVu.png",
+    designation: "Other Sponsor",
+  },
+  {
+    id: "28",
+    name: "SLRIS",
+    image: "https://i.imgur.com/powFxTK.png",
+    designation: "Other Sponsor",
+  },
+  {
+    id: "29",
+    name: "RS Enterprises",
+    image: "https://i.imgur.com/ECXeOQL.jpg",
+    designation: "Other Sponsor",
+  },
+  {
+    id: "30",
+    name: "Poorvika",
+    image: "https://i.imgur.com/G64fzCu.png",
+    designation: "Other Sponsor",
+  },
+  {
+    id: "31",
+    name: "Cittaa",
+    image: "https://i.imgur.com/EVLvwIP.png",
+    designation: "Other Sponsor",
+  }
 ];
 export default data;
