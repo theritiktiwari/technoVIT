@@ -190,6 +190,42 @@ const data = [
     name: "Cittaa",
     image: "https://i.imgur.com/EVLvwIP.png",
     designation: "Other Sponsor",
+  },
+  {
+    id: "32",
+    name: "Museek",
+    image: "https://i.imgur.com/c8JWGNV.png",
+    designation: "Other Sponsor",
+  },
+  {
+    id: "33",
+    name: "Aphrodite's Drape",
+    image: "https://i.imgur.com/4tRbcvC.png",
+    designation: "Other Sponsor",
+  },
+  {
+    id: "34",
+    name: "Sriven Autopac",
+    image: "https://i.imgur.com/E5JH5ZU.png",
+    designation: "Other Sponsor",
+  },
+  {
+    id: "35",
+    name: "Vishvarth",
+    image: "https://i.imgur.com/uyHyYre.png",
+    designation: "Other Sponsor",
+  },
+  {
+    id: "36",
+    name: "Coding Ninjas",
+    image: "https://i.imgur.com/8iHzCdJ.png",
+    designation: "Other Sponsor",
+  },
+  {
+    id: "37",
+    name: "Evergreen Foodland",
+    image: "https://i.imgur.com/PIquhbD.png",
+    designation: "Other Sponsor",
   }
 ];
 export default data;
