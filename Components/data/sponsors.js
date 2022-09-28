@@ -274,6 +274,12 @@ const data = [
     name: "IDFC First Bank",
     image: "https://i.imgur.com/1JHA5Od.jpg",
     designation: "Other Sponsor",
+  },
+  {
+    id: "47",
+    name: "Valeo",
+    image: "https://i.imgur.com/groyede.png",
+    designation: "Other Sponsor",
   }
 ];
 export default data;
